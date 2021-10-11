@@ -9,6 +9,7 @@
 make vs2019 REGENIE=1 SOURCES=^
 src/mame/audio/llander.cpp,^
 src/mame/drivers/1942.cpp,^
+src/mame/drivers/8080bw.cpp,^
 src/mame/drivers/asteroid.cpp,^
 src/mame/drivers/atarisy2.cpp ^
 src/mame/drivers/centiped.cpp,^
@@ -16,6 +17,7 @@ src/mame/drivers/dkong.cpp,^
 src/mame/drivers/galaga.cpp,^
 src/mame/drivers/galaxian.cpp,^
 src/mame/drivers/m52.cpp,^
+src/mame/drivers/mw8080bw.cpp,^
 src/mame/drivers/pacman.cpp,^
 src/mame/drivers/taitosj.cpp,^
 PYTHON_EXECUTABLE=d:/msys64-32-2019-12-23/mingw64/bin/python.exe
