@@ -19,5 +19,6 @@ src/mame/drivers/galaxian.cpp,^
 src/mame/drivers/m52.cpp,^
 src/mame/drivers/mw8080bw.cpp,^
 src/mame/drivers/pacman.cpp,^
+src/mame/drivers/pong.cpp,^
 src/mame/drivers/taitosj.cpp ^
 PYTHON_EXECUTABLE=d:/msys64-32-2019-12-23/mingw64/bin/python.exe
