@@ -12,6 +12,7 @@ src/mame/drivers/1942.cpp,^
 src/mame/drivers/8080bw.cpp,^
 src/mame/drivers/asteroid.cpp,^
 src/mame/drivers/atarisy2.cpp,^
+src/mame/drivers/bzone.cpp,^
 src/mame/drivers/centiped.cpp,^
 src/mame/drivers/dkong.cpp,^
 src/mame/drivers/galaga.cpp,^
