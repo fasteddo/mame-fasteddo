@@ -14,10 +14,12 @@ src/mame/drivers/asteroid.cpp,^
 src/mame/drivers/atarisy2.cpp,^
 src/mame/drivers/bzone.cpp,^
 src/mame/drivers/centiped.cpp,^
+src/mame/drivers/cclimber.cpp,^
 src/mame/drivers/dkong.cpp,^
 src/mame/drivers/galaga.cpp,^
 src/mame/drivers/galaxian.cpp,^
 src/mame/drivers/m52.cpp,^
+src/mame/drivers/missile.cpp,^
 src/mame/drivers/mw8080bw.cpp,^
 src/mame/drivers/pacman.cpp,^
 src/mame/drivers/pong.cpp,^
