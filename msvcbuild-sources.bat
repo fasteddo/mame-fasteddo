@@ -17,6 +17,7 @@ src/mame/drivers/bzone.cpp,^
 src/mame/drivers/centiped.cpp,^
 src/mame/drivers/cclimber.cpp,^
 src/mame/drivers/dkong.cpp,^
+src/mame/drivers/fastfred.cpp,^
 src/mame/drivers/galaga.cpp,^
 src/mame/drivers/galaxian.cpp,^
 src/mame/drivers/m52.cpp,^
