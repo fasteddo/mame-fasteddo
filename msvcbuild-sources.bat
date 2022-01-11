@@ -25,6 +25,7 @@ src/mame/drivers/mcr.cpp,^
 src/mame/drivers/missile.cpp,^
 src/mame/drivers/mw8080bw.cpp,^
 src/mame/drivers/pacman.cpp,^
+src/mame/drivers/polepos.cpp,^
 src/mame/drivers/pong.cpp,^
 src/mame/drivers/rallyx.cpp,^
 src/mame/drivers/taitosj.cpp,^
