@@ -28,6 +28,7 @@ src/mame/drivers/pacman.cpp,^
 src/mame/drivers/polepos.cpp,^
 src/mame/drivers/pong.cpp,^
 src/mame/drivers/rallyx.cpp,^
+src/mame/drivers/system1.cpp,^
 src/mame/drivers/taitosj.cpp,^
 src/mame/drivers/williams.cpp ^
 PYTHON_EXECUTABLE=d:/msys64-32-2019-12-23/mingw64/bin/python.exe
