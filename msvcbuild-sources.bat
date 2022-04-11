@@ -32,5 +32,6 @@ src/mame/drivers/rallyx.cpp,^
 src/mame/drivers/system1.cpp,^
 src/mame/drivers/taitosj.cpp,^
 src/mame/drivers/tempest.cpp,^
+src/mame/drivers/turbo.cpp,^
 src/mame/drivers/williams.cpp ^
 PYTHON_EXECUTABLE=d:/msys64-2022-01-12/mingw64/bin/python.exe
