@@ -29,6 +29,7 @@ src/mame/drivers/pacman.cpp,^
 src/mame/drivers/polepos.cpp,^
 src/mame/drivers/pong.cpp,^
 src/mame/drivers/rallyx.cpp,^
+src/mame/drivers/snk6502.cpp,^
 src/mame/drivers/system1.cpp,^
 src/mame/drivers/taitosj.cpp,^
 src/mame/drivers/tempest.cpp,^
