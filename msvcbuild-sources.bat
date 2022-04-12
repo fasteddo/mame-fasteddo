@@ -21,6 +21,7 @@ src/mame/drivers/dkong.cpp,^
 src/mame/drivers/fastfred.cpp,^
 src/mame/drivers/galaga.cpp,^
 src/mame/drivers/galaxian.cpp,^
+src/mame/drivers/gottlieb.cpp,^
 src/mame/drivers/m52.cpp,^
 src/mame/drivers/mappy.cpp,^
 src/mame/drivers/mcr.cpp,^
