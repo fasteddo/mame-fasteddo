@@ -22,6 +22,7 @@ src/mame/drivers/fastfred.cpp,^
 src/mame/drivers/galaga.cpp,^
 src/mame/drivers/galaxian.cpp,^
 src/mame/drivers/m52.cpp,^
+src/mame/drivers/mappy.cpp,^
 src/mame/drivers/mcr.cpp,^
 src/mame/drivers/missile.cpp,^
 src/mame/drivers/mw8080bw.cpp,^
