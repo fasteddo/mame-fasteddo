@@ -128,21 +128,6 @@ license:CC0
 		</part>
 	</software>
 
-	<!-- This program was included as an audio track on the record "1984" from the Spanish
-	         music group "La Mode". It was present only on the vinyl version (not on the cassette),
-	         as the last track of the B side, titled as "Programa Computado".
-	         It was programmed by Mario Gil (one of the "La Mode" group members). -->
-	<software name="1984lm">
-		<description>La Mode - 1984 (Programa Computado)</description>
-		<year>1984</year>
-		<publisher>La Mode / Ediciones Nemo</publisher>
-		<part name="cass" interface="spectrum_cass">
-			<dataarea name="cass" size="13378">
-				<rom name="lamode_1984_programa_computado.tzx" size="13308" crc="f87f7615" sha1="97b4d233855d3c5871c5a99aa516f8d26970989d"/>
-			</dataarea>
-		</part>
-	</software>
-
 	<!-- NC128 -->
 	<software name="3dstarfi">
 		<description>3D Starfighter</description>
@@ -722,6 +707,22 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="androides" cloneof="androids">
+		<description>Androides</description>
+		<year>1983</year>
+		<publisher>Ventamatic</publisher>
+		<info name="alt_title" value="Androide Cero (advertisement)"/>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="32272">
+				<rom name="androides (a).tzx" size="32272" crc="b6d92769" sha1="d2f65bed899d5c4a3393dbe3042aabc076dbd98d"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="32272">
+				<rom name="androides (b).tzx" size="32272" crc="f7a9f4ed" sha1="e8234d03c7e5498aa99a6eafad5f2e5e4c8ea6b6"/>
+			</dataarea>
+		</part>
+	</software>
 
 	<software name="atking"> <!-- rerelease of SuperCar Trans-AM from the dlgun pack -->
 		<description>American Turbo King (Mastertronic, Joystick)</description>
@@ -1942,6 +1943,17 @@ license:CC0
 	     Titles beginning with 'B'
 	     ############################################################################################################################## -->
 
+	<software name="batallan">
+		<description>Batalla Naval</description>
+		<year>1983</year>
+		<publisher>Taller de Aplicaciones Informáticas</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="17818">
+				<rom name="batalla naval.tzx" size="17818" crc="9c13d091" sha1="30a325409e5c00b4e13b7a09aebdc94cbfa5345a"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<!-- Batman had a variety of loaders, some work, some don't ... -->
 
 	<!-- OK -->
@@ -2405,6 +2417,17 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="40182">
 				<rom name="ballbreaker ii.tzx" size="40182" crc="0c5eaff7" sha1="39aed3792b2e5980e9d579b33e6341a24191acab"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="ballbrk2z" cloneof="ballbrk2">
+		<description>Ballbreaker II (Zafiro)</description>
+		<year>1988</year>
+		<publisher>Zafiro</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="40313">
+				<rom name="Ballbreaker II (Zafiro).tzx" size="40313" crc="15a4f5c3" sha1="2406402ad9714f59118c7faf4a6a6e693f3b876c"/>
 			</dataarea>
 		</part>
 	</software>
@@ -4867,6 +4890,78 @@ license:CC0
 	     Titles beginning with 'C'
 	     ############################################################################################################################## -->
 
+	<software name="cozumelsl">
+		<!--
+		    Bug fixed release.
+		-->
+		<description>Ci-U-Than Trilogy-I: Cozumel (Serie Leyenda)</description>
+		<year>1990</year>
+		<publisher>IBSA</publisher>
+		<info name="alt_title" value="Diosa de Cozumel (in-game)"/>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="47748">
+				<rom name="cozumel - side 1 (serie leyenda).tzx" size="47748" crc="814adb3c" sha1="46c575ee642d1f283bacaf376ff186cefa3e3c4f" offset="0"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="47748">
+				<rom name="cozumel - side 2 (serie leyenda).tzx" size="47748" crc="bb4df2bb" sha1="a694ca70f97a4ef8118c6297c575e4b144ed36ce" offset="0"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="cozumel" cloneof="cozumelsl">
+		<!--
+		    This version can't be finished without knowing how to work around a bug.
+		-->
+		<description>Ci-U-Than Trilogy-I: Cozumel</description>
+		<year>1990</year>
+		<publisher>Aventuras AD</publisher>
+		<info name="alt_title" value="Diosa de Cozumel (in-game)"/>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="48160">
+				<rom name="cozumel - side a.tzx" size="48160" crc="77c701f0" sha1="45545fbc291641817ce652a822c373350de51ce0" offset="0"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="48160">
+				<rom name="cozumel - side b.tzx" size="48160" crc="b682d89f" sha1="b633edfc2bf01ac8f744b45ec129ab93ee8b82e1" offset="0"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="tempsagr">
+		<description>Ci-U-Than Trilogy-II: Los Templos Sagrados</description>
+		<year>1991</year>
+		<publisher>Aventuras AD</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="47301">
+				<rom name="los templos sagrados - side 1.tzx" size="47301" crc="4eb11128" sha1="4874e4d7734992868a8caf0a288c8853ed3e2926"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="47262">
+				<rom name="los templos sagrados - side 2.tzx" size="47262" crc="bfcd1571" sha1="2c508e9ccbf4c5bb391e9aaf81c75746fc9c83a0"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="chicheni">
+		<description>Ci-U-Than Trilogy-III: Chichén Itzá</description>
+		<year>1992</year>
+		<publisher>Aventuras AD</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="48362">
+				<rom name="chichen itza - side 1.tzx" size="48362" crc="89b59d24" sha1="44354efa2a66692b79b6a62d60765d508c366af1"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="48362">
+				<rom name="chichen itza - side 2.tzx" size="48362" crc="894e48f5" sha1="50adb20c01a51b7d89a202a62d5fd5c57ceca50a"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<!-- Homebrew released at http://spectralinterlude.com/#download for use on real systems & emulators -->
 	<software name="castlvsi">
 		<description>Castlevania - Spectral Interlude (v1.1, English, 128K)</description>
@@ -5171,20 +5266,19 @@ license:CC0
 		<year>1986</year>
 		<publisher>Dinamic Software</publisher>
 		<part name="cass" interface="spectrum_cass">
-			<dataarea name="cass" size="49259">
-				<rom name="cobra's arc - small case.tzx" size="49259" crc="2d2a5144" sha1="b19b570514ee639a8d2ae74e23e435a5059f8eb7"/>
+			<dataarea name="cass" size="49371">
+				<rom name="cobra's arc - small case.tzx" size="49371" crc="52cc1a62" sha1="4496079db6d86c814d89f5642d288a359d3260f9"/>
 			</dataarea>
 		</part>
 	</software>
 
-	<!-- possible bad dump, shorter image, doesn't load -->
 	<software name="cobrasarm" cloneof="cobrasar">
 		<description>Cobra's Arc (medium case)</description>
 		<year>1986</year>
 		<publisher>Dinamic Software</publisher>
 		<part name="cass" interface="spectrum_cass">
-			<dataarea name="cass" size="49297">
-				<rom name="cobra_s arc - medium case.tzx" size="49297" crc="a65b0222" sha1="70bb713ff9cced739440375603f87d1e965ac67e"/>
+			<dataarea name="cass" size="49370">
+				<rom name="cobra_s arc - medium case.tzx" size="49370" crc="20d9ca14" sha1="f32fe824f792016ed02edce7bd25d98dcfd37c2f"/>
 			</dataarea>
 		</part>
 	</software>
@@ -5339,15 +5433,30 @@ license:CC0
 		</part>
 	</software>
 
-	<!-- this was meant to be part of the 'Supersports Challenge' compilation (along with another unique game 'slicks') however no dumps
-	     of the compilation exist -->
 	<software name="cueboy">
+		<!--
+		    This was meant to be part of the "Supersports Challenge" compilation, along with another unique game "Slicks". However, no dumps of the compilation exist.
+		-->
 		<description>Cue Boy</description>
 		<year>1992</year>
 		<publisher>Code Masters</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="54521">
 				<rom name="cue boy (1992)(code masters)(48k-128k).tzx" size="54521" crc="edc81f1b" sha1="344963c1b0d2383e79bad43aa03278ce4250f77b"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="cuenbanc">
+		<!--
+		    May be based on an English release.
+		-->
+		<description>Cuentas Bancarias</description>
+		<year>1983</year>
+		<publisher>Intelligent Program</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="39375">
+				<rom name="Cuentas Bancarias (Intelligent Program).tzx" size="39375" crc="8997a5e1" sha1="93c82cad75887096ecb0a5bec130f9119ca9f402"/>
 			</dataarea>
 		</part>
 	</software>
@@ -6900,10 +7009,64 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="cuerpodi">
+		<description>Cuerpo / Digestivo</description>
+		<year>1984</year>
+		<publisher>Boalox Informática</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<feature name="part_id" value="Side A: Cuerpo"/>
+			<dataarea name="cass" size="40632">
+				<rom name="cuerpo + digestivo - side a.tzx" size="40632" crc="9a3e2ede" sha1="6ce8fd81f49f85ce716e38598973b6f20b7cc10a"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<feature name="part_id" value="Side B: Digestivo"/>
+			<dataarea name="cass" size="17305">
+				<rom name="cuerpo + digestivo - side b.tzx" size="17305" crc="3243135c" sha1="3c8b18d7520cb683b294c80f76a4fd8e38ec5a41"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<!-- ##############################################################################################################################
 	     Titles beginning with 'D'
 	     ############################################################################################################################## -->
 
+	<software name="davgnomo">
+		<!--
+		    This program was included as an audio track on the record "David el Gnomo" (the OST from the
+		    Spanish TV animation series with the same name, published by "Ariola Eurodisc S.A.").
+		    It was present on both the vinyl and the cassette versions, as a track titled
+		    "Juego de Los Gnomos para ordenador Spectrum".
+		    It was programmed by Manuel Orcera within the Spanish company "Juliet Software" for the,
+		    also Spanish, company "Compulogical S.A.".
+		    The game was re-released on 1986 on the audio record "Baby Album" (also published by
+		    "Ariola Eurodisc S.A."), but this time only on the vinyl version, not on the cassette.
+		-->
+		<description>David el Gnomo</description>
+		<year>1985</year>
+		<publisher>Ariola Eurodisc S.A.</publisher>
+		<info name="alt_title" value="Los Gnomos (inlay)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="47189">
+				<rom name="david el gnomo.tzx" size="47189" crc="63322d16" sha1="a5b7ffa68267887e71ae4011888f628e9c0b5e89"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="davgnomov" cloneof="davgnomo">
+		<!--
+		    Same data as cassette version but with longer pauses.
+		-->
+		<description>David el Gnomo (vinyl version)</description>
+		<year>1985</year>
+		<publisher>Ariola Eurodisc S.A.</publisher>
+		<info name="alt_title" value="Los Gnomos (back cover)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="47189">
+				<rom name="david el gnomo vinyl version.tzx" size="47189" crc="c9bee68e" sha1="7ebc4a65fc2a6d3b2a3a593bb32218dab13599a0"/>
+			</dataarea>
+		</part>
+	</software>
 
 	<!-- NC128 -->
 	<software name="dizzy">
@@ -6936,7 +7099,7 @@ license:CC0
 		<publisher>Code Masters</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="48885">
-					<rom name="dizzy - the ultimate cartoon adventure.tap" size="48857" crc="6481fe73" sha1="eced00a33cc0d88f66cdacd79c9f6a5e15e7a745"/>
+				<rom name="dizzy - the ultimate cartoon adventure.tap" size="48857" crc="6481fe73" sha1="eced00a33cc0d88f66cdacd79c9f6a5e15e7a745"/>
 			</dataarea>
 		</part>
 	</software>
@@ -8825,6 +8988,54 @@ license:CC0
 	     Titles beginning with 'E'
 	     ############################################################################################################################## -->
 
+	<software name="paquetaz">
+		<!--
+		    This bundle came with the regular System 4 releases inside a cardboard box, including cassettes and unfolded inlays but without their plastic cases.
+		-->
+		<description>El Paquetazo</description>
+		<year>1989</year>
+		<publisher>System 4</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<feature name="part_id" value="Tape 1: Erik - The Phantom of the Opera"/>
+			<dataarea name="cass" size="39666">
+				<rom name="erik - the phantom of the opera (system 4) (francisco de diego, 35).tzx" size="39666" crc="6d264ca0" sha1="543806037f652bf5dd7f6313f70d36ae8aeffcdc" offset="0"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<!--
+			    Has some partially recorded data after the last block, from an unknown game.
+			-->
+			<feature name="part_id" value="Tape 2: Gunboat"/>
+			<dataarea name="cass" size="48480">
+				<rom name="gunboat (system 4) (francisco de diego, 35).tzx" size="48480" crc="4e18cb97" sha1="1fa967cf4521712ebddbf6ef1d7306473e6e7334" offset="0"/>
+			</dataarea>
+		</part>
+		<part name="cass3" interface="spectrum_cass">
+			<feature name="part_id" value="Tape 3: Implosion"/>
+			<dataarea name="cass" size="48206">
+				<rom name="implosion (system 4) (laurel, 10).tzx" size="48206" crc="645b4103" sha1="c40325b6896b3cec6729f946bb0467ad845926b1" offset="0"/>
+			</dataarea>
+		</part>
+		<part name="cass4" interface="spectrum_cass">
+			<feature name="part_id" value="Tape 4: The Fifth Quadrant"/>
+			<dataarea name="cass" size="40434">
+				<rom name="the fifth quadrant (system 4) (laurel, 10).tzx" size="40434" crc="79ee68f1" sha1="c89f9bb341b8f2f97831268e145e5c08cfbdd520" offset="0"/>
+			</dataarea>
+		</part>
+		<part name="cass5" interface="spectrum_cass">
+			<feature name="part_id" value="Tape 5: Through The Trap Door"/>
+			<dataarea name="cass" size="40062">
+				<rom name="through the trap door (system 4) (francisco de diego, 35).tzx" size="40062" crc="7607a59d" sha1="a2b17528ec34cb667703ad701ba1071b5fa4c537" offset="0"/>
+			</dataarea>
+		</part>
+		<part name="cass6" interface="spectrum_cass">
+			<feature name="part_id" value="Tape 6: Yogi Bear"/>
+			<dataarea name="cass" size="45862">
+				<rom name="yogi bear (system 4) (francisco de diego, 35).tzx" size="45862" crc="e0c3fb93" sha1="5485cf42b5b6668f28907c2d6e00b69ab4f55e49" offset="0"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="earthshk">
 		<description>Earth Shaker (set 1)</description>
 		<year>1990</year>
@@ -8936,13 +9147,24 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="exolon_b" cloneof="exolon">
+	<software name="exolone" cloneof="exolon">
 		<description>Exolon (Erbe)</description>
 		<year>1987</year>
 		<publisher>Hewson Consultants</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="42645">
 				<rom name="exolon (erbe).tzx" size="42645" crc="bc9f963b" sha1="0b18b03c172cebff19349cc665288a362a7bd4e1"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="exolonesl" cloneof="exolon">
+		<description>Exolon (Erbe, Serie Leyenda)</description>
+		<year>1987</year>
+		<publisher>Erbe Software</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="42645">
+				<rom name="Exolon (Erbe - Serie Leyenda).tzx" size="42645" crc="6c17c19f" sha1="3e65b38a7d789607a3de80059e0ec0019a787d4d"/>
 			</dataarea>
 		</part>
 	</software>
@@ -9191,6 +9413,28 @@ license:CC0
 	<!-- ##############################################################################################################################
 	     Titles beginning with 'F'
 	     ############################################################################################################################## -->
+
+	<software name="faraonabc">
+		<description>Faraón (ABC Soft)</description>
+		<year>1985</year>
+		<publisher>ABC Soft</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="49560">
+				<rom name="Faraon (ABC Soft).tzx" size="49560" crc="a2de804c" sha1="8ccd309252bdca1139c9e895a5a67482d21f7ed9"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="fiao">
+		<description>FIAO</description>
+		<year>1986</year>
+		<publisher>Luis Mezquita Raya</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="15824">
+				<rom name="FIAO.tzx" size="15824" crc="6b1fe0e0" sha1="c144c5fa1e8be01aee5aa1a88430cff6cbbdb26f"/>
+			</dataarea>
+		</part>
+	</software>
 
 	<software name="dizzyff">
 		<description>Fast Food Dizzy (set 1)</description>
@@ -11042,6 +11286,20 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="globus">
+		<!--
+		    Unreleased game.
+		-->
+		<description>Globus</description>
+		<year>1987</year>
+		<publisher>Paco Lafuente</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="48473">
+				<rom name="globus 22-2-87-3.tzx" size="48473" crc="1d696a7f" sha1="0c9b18b98037552b88b16d45bf4e3b5fbd69e0ac"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="gloop">
 		<description>Gloop</description>
 		<year>1994</year>
@@ -11341,6 +11599,9 @@ license:CC0
 	</software>
 
 	<software name="gup">
+		<!--
+		    Unreleased game.
+		-->
 		<description>Gup</description>
 		<year>19??</year>
 		<publisher>Jon Burton</publisher>
@@ -11511,6 +11772,17 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="48635">
 				<rom name="the goonies (erbe).tzx" size="48635" crc="69f351b1" sha1="1c6e532ee300f1ae927e58a8a975a2deb1634dcb"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="gooniesesm" cloneof="goonies">
+		<description>The Goonies (Erbe, small case)</description>
+		<year>1986</year>
+		<publisher>Erbe Software</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="48542">
+				<rom name="The Goonies - Small Case (Erbe).tzx" size="48542" crc="14e26b65" sha1="9f1b23d432dc393dcf1fbe2c9d4e813bc34e6826"/>
 			</dataarea>
 		</part>
 	</software>
@@ -12102,6 +12374,17 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="51082">
 				<rom name="head over heels_tzx120.tzx" size="51082" crc="d52969f8" sha1="6e09d351dc32872f84c2a714b880e4217f6e784a"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="headheelsl" cloneof="headheel">
+		<description>Head Over Heels (IBSA, Serie Leyenda)</description>
+		<year>1987</year>
+		<publisher>IBSA</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="49335">
+				<rom name="Head Over Heels (IBSA - Serie Leyenda).tzx" size="49335" crc="c40d9123" sha1="372b7e4a1232ec9f1de92744b55a3253f4a14274"/>
 			</dataarea>
 		</part>
 	</software>
@@ -13620,7 +13903,7 @@ license:CC0
 		<part name="cass1" interface="spectrum_cass">
 			<feature name="part_id" value="Tape 1 - Side 1: Main Loader 1"/>
 			<dataarea name="cass" size="49089">
-					<rom name="jet bike simulator - tape 1 - side 1.tzx" size="49089" crc="b32a78a6" sha1="9707083b0f1c0b5517c7d68a902cc0304a89e11c"/>
+				<rom name="jet bike simulator - tape 1 - side 1.tzx" size="49089" crc="b32a78a6" sha1="9707083b0f1c0b5517c7d68a902cc0304a89e11c"/>
 			</dataarea>
 		</part>
 		<part name="cass2" interface="spectrum_cass">
@@ -13928,7 +14211,7 @@ license:CC0
 		</part>
 	</software>
 
-		<software name="jsw128_1" cloneof="jsw128">
+	<software name="jsw128_1" cloneof="jsw128">
 		<description>Jet Set Willy - 128k v.0.00 Hack Level 1</description>
 		<year>1996</year>
 		<publisher>&lt;unknown&gt;</publisher>
@@ -14456,6 +14739,31 @@ license:CC0
 	<!-- ##############################################################################################################################
 	     Titles beginning with 'K'
 	     ############################################################################################################################## -->
+
+	<software name="kingleon">
+		<description>King Leonard</description>
+		<year>1986</year>
+		<publisher>Mind Games España</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="47859">
+				<rom name="king leonard.tzx" size="47859" crc="85ca3fb0" sha1="c258d60125ed72d4a69f86ed9a0860b8241446e8"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="kingleonb" cloneof="kingleon">
+		<!--
+		    Identical to its other release.
+		-->
+		<description>King Leonard (large case)</description>
+		<year>1986</year>
+		<publisher>Mind Games España</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="47833">
+				<rom name="king leonard (large case).tzx" size="47833" crc="5502968d" sha1="b457b6e89096f5a43d722361acdc766d1a76aaf1"/>
+			</dataarea>
+		</part>
+	</software>
 
 	<software name="dizzyks">
 		<description>Kwik Snax Dizzy (set 1)</description>
@@ -15356,6 +15664,24 @@ license:CC0
 	     Titles beginning with 'L'
 	     ############################################################################################################################## -->
 
+	<!-- NC128 -->
+	<software name="diosacoz">
+		<!--
+		    Unreleased original 1987 version of Cozumel by Samusoft, freebie for Spanish Retro Gamer subscribers.
+		    Later reissued by Matra in 2015 without the Retro Gamer branding.
+		-->
+		<description>La Diosa de Cozumel (Samusoft, Retro Gamer)</description>
+		<year>2013</year>
+		<publisher>Axel Springer / Matra</publisher>
+		<info name="author" value="Andrés Samudio (Samusoft)"/>
+		<info name="alt_title" value="Diosa de Cozumel (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="47992">
+				<rom name="cozumel (retro gamer).tzx" size="47992" crc="a96e2c5e" sha1="fce2355d09ed50a44bd370d6765b24d0fb456d35"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="lpuff">
 		<description>Little Puff In Dragon Land</description>
 		<year>1989</year>
@@ -15562,9 +15888,9 @@ license:CC0
 	</software>
 
 	<software name="attckatl" cloneof="lunaratt">
-		<description>Attack on Atlantis (Mind Games Espana)</description>
+		<description>Attack on Atlantis (Mind Games España)</description>
 		<year>1985</year>
-		<publisher>Mind Games Espana</publisher>
+		<publisher>Mind Games España</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="18212">
 				<rom name="attack on atlantis (mind games espana).tzx" size="18212" crc="7e3ddb3a" sha1="a7f4701e9720d496a8711485e825cd8b4b7943a9"/>
@@ -16692,7 +17018,7 @@ license:CC0
 	</software>
 
 	<software name="mminer">
-		<description>Manic Miner (set 1)</description>
+		<description>Manic Miner (Bug-Byte Software)</description>
 		<year>1983</year>
 		<publisher>Bug-Byte Software</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -16703,7 +17029,7 @@ license:CC0
 	</software>
 
 	<software name="mminera" cloneof="mminer"> <!-- doesn't have any proper loading screen -->
-		<description>Manic Miner (set 2)</description>
+		<description>Manic Miner (Bug-Byte Software, first release)</description>
 		<year>1983</year>
 		<publisher>Bug-Byte Software</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -16714,7 +17040,7 @@ license:CC0
 	</software>
 
 	<software name="mmineral" cloneof="mminer">
-		<description>Manic Miner (set 3, Al Rushaid)</description>
+		<description>Manic Miner (Al Rushaid)</description>
 		<year>1983</year>
 		<publisher>Bug-Byte Software Ltd / Al Rushaid</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -16725,7 +17051,7 @@ license:CC0
 	</software>
 
 	<software name="mminerm" cloneof="mminer">
-		<description>Manic Miner (set 4, MAD)</description>
+		<description>Manic Miner (MAD)</description>
 		<year>1983</year>
 		<publisher>Bug-Byte Software Ltd / MAD</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -16736,7 +17062,7 @@ license:CC0
 	</software>
 
 	<software name="mminers" cloneof="mminer">
-		<description>Manic Miner (set 5, Software Projects)</description>
+		<description>Manic Miner (Software Projects)</description>
 		<year>1983</year>
 		<publisher>Bug-Byte Software Ltd / Software Projects</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -16752,7 +17078,7 @@ license:CC0
 	</software>
 
 	<software name="mminerslsh" cloneof="mminer">
-		<description>Manic Miner (set 6, Software Projects -Version 1) (loading screen hack)</description>
+		<description>Manic Miner (Software Projects -Version 1) (loading screen hack)</description>
 		<year>19??</year>
 		<publisher>hack</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -16763,7 +17089,7 @@ license:CC0
 	</software>
 
 	<software name="mminerslsha" cloneof="mminer">
-		<description>Manic Miner (set 7, Software Projects - Version 2) (loading screen hack)</description>
+		<description>Manic Miner (Software Projects - Version 2) (loading screen hack)</description>
 		<year>19??</year>
 		<publisher>hack</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -16772,8 +17098,6 @@ license:CC0
 			</dataarea>
 		</part>
 	</software>
-
-
 
 	<software name="mminered">
 		<description>Manic Miner Game Designer &amp; Editor (v8)</description>
@@ -18234,6 +18558,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="norstaresl" cloneof="norstar">
+		<description>North Star (Erbe, Serie Leyenda)</description>
+		<year>1988</year>
+		<publisher>Erbe Software</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="49424">
+				<rom name="North Star (Erbe - Serie Leyenda).tzx" size="49424" crc="9a9640a0" sha1="b90dbc2f1e1dc8e4dc67f3868583ead491ba1864"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="norstara" cloneof="norstar">
 		<description>North Star (Byte-Back)</description>
 		<year>1988</year>
@@ -18738,6 +19073,36 @@ license:CC0
 	     Titles beginning with 'O'
 	     ############################################################################################################################## -->
 
+	<software name="ogerox">
+		<!--
+		    The version originally published in MicroHobby had some parts missing, this full game has been recovered directly from one of its authors.
+		    Game can't be finished normally due to a bug. Requires to insert "POKE 59942,3" in its loader, in order to limit the number of on-screen sprites to 3, which lowers the number of enemies and allows the final door lock to appear.
+		-->
+		<description>Ogerox en los Dominios del Fuego</description>
+		<year>1988</year>
+		<publisher>Aroevs Software</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="41830">
+				<rom name="ogerox.tzx" size="41830" crc="2a39b3c5" sha1="bf593dc4e3f0a5bb9b4cb3a4379482dba21268b2"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="okcomput">
+		<!--
+		    Last track of the 2017 cassette remaster of Radiohead's Ok Computer album.
+		-->
+		<description>Ok Computer Program (Radiohead – OK Computer OKNOTOK 1997 2017)</description>
+		<year>2017</year>
+		<publisher>XL Recordings</publisher>
+		<info name="usage" value="have to load and RUN as a BASIC program" />
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="939">
+				<rom name="radiohead ok computer.tzx" size="939" crc="78ad495d" sha1="5565b8925166ecc59ea62f5425de679504e8a4cf"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="olli">
 		<description>Olli &amp; Lissa - The Ghost of Shilmoore</description>
 		<year>1986</year>
@@ -18879,7 +19244,7 @@ license:CC0
 		<publisher>Watson Software Services</publisher>
 		<part name="cass1" interface="spectrum_cass">
 			<feature name="part_id" value="Side 1 - The Open"/>
-			<dataarea name="cass" size="41645"> <!-- identical to image in 'opencarn::cass1'  -->
+			<dataarea name="cass" size="41645"> <!-- identical to image in 'opencarn::cass1' -->
 				<rom name="the open - carnoustie - alternate - side 1.tzx" size="41645" crc="cd06ad11" sha1="c21a419a4416f605d9b7796bae0460caca5a3c92"/>
 			</dataarea>
 		</part>
@@ -19392,6 +19757,23 @@ license:CC0
 	     Titles beginning with 'P'
 	     ############################################################################################################################## -->
 
+	<software name="progcomp">
+		<!--
+		    This program was included as an audio track on the record "1984" from the Spanish
+		    music group "La Mode". It was present only on the vinyl version (not on the cassette),
+		    as the last track of the B side.
+		-->
+		<description>Programa Computado (La Mode - 1984)</description>
+		<year>1984</year>
+		<publisher>La Mode / Ediciones Nemo</publisher>
+		<info name="author" value="Félix García, Indalecio Gorrochategui and Abel Valero"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="13378">
+				<rom name="lamode_1984_programa_computado.tzx" size="13308" crc="f87f7615" sha1="97b4d233855d3c5871c5a99aa516f8d26970989d"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="pacman">
 		<description>Pac-Man (set 1)</description>
 		<year>1983</year>
@@ -19599,6 +19981,21 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="47731">
 				<rom name="prince clumsy (edos).tzx" size="47731" crc="f49f3c68" sha1="5438e948bebfb1837c37f718f1edbfeba9cb7393"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="pringles">
+		<!--
+		    Part of the "Mind Popping" promotional campaign for Pringles, launched to coincide with the ZX Spectrum's 40th anniversary.
+		-->
+		<description>Pringlesonic</description>
+		<year>2022</year>
+		<publisher>Kellogg's</publisher>
+		<info name="alt_title" value="Mind Popping (loading screen)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="8769">
+				<rom name="pringlesonic.tzx" size="8769" crc="b8b03d2e" sha1="7ce5adaf985c4dc267faaf997910d609e9cc2fa9"/>
 			</dataarea>
 		</part>
 	</software>
@@ -21504,6 +21901,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="rocasbin">
+		<description>Rocas Bingo</description>
+		<year>1994</year>
+		<publisher>Rocassoft Corp</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="32362">
+				<rom name="Rocas Bingo.tzx" size="32362" crc="3ca4e698" sha1="553721a9b7c0095f8fcba603634ce87b0227cbe3"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="rockhams">
 		<description>Rock Star Ate My Hamster</description>
 		<year>1989</year>
@@ -22528,7 +22936,7 @@ license:CC0
 	</software>
 
 	<software name="resatlan">
-		<description>Rescate Atlantida (set 1, IB-S-006)</description>
+		<description>Rescate Atlántida (set 1, IB-S-006)</description>
 		<year>1989</year>
 		<publisher>Dinamic Software</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -22544,7 +22952,7 @@ license:CC0
 	</software>
 
 	<software name="resatlana" cloneof="resatlan">
-		<description>Rescate Atlantida (set 2)</description>
+		<description>Rescate Atlántida (set 2)</description>
 		<year>1989</year>
 		<publisher>Dinamic Software</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -22560,7 +22968,7 @@ license:CC0
 	</software>
 
 	<software name="resatlanb" cloneof="resatlan">
-		<description>Rescate Atlantida (set 3)</description>
+		<description>Rescate Atlántida (set 3)</description>
 		<year>1989</year>
 		<publisher>Dinamic Software</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -23218,16 +23626,50 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="renault">
+		<!--
+		    Given away in the UK with the purchase of a Renault 9.
+		-->
+		<description>Renault After Sales</description>
+		<year>1984</year>
+		<publisher>Renault S.A.</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<feature name="part_id" value="Tape 1 Side A: Renault After Sales Service"/>
+			<dataarea name="cass" size="11608">
+				<rom name="renault after sales service tape 1 side a.tzx" size="11608" crc="bf105a69" sha1="bf9918423ee9d5c859ab2d56889ef80a47c6d34a"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<feature name="part_id" value="Tape 1 Side B: Maintaining your car"/>
+			<dataarea name="cass" size="28572">
+				<rom name="renault maintaining your car tape 1 side b.tzx" size="28572" crc="4469dc19" sha1="90fcaa16c3bb4b7608b1d5ab669df46388e4c099"/>
+			</dataarea>
+		</part>
+		<part name="cass3" interface="spectrum_cass">
+			<feature name="part_id" value="Tape 2 Side A: Where to find your Renault Dealer (Southern England and Whales)"/>
+			<dataarea name="cass" size="69229">
+				<rom name="renault where to find your renault dealer tape 2 side a.tzx" size="69229" crc="37e0c011" sha1="404089d17a40860c15f577b3e295dcb9d2585247"/>
+			</dataarea>
+		</part>
+		<part name="cass4" interface="spectrum_cass">
+			<feature name="part_id" value="Tape 2 Side B: Where to find your Renault Dealer (Northern England, Midlands, Scotland and Northern Ireland)"/>
+			<dataarea name="cass" size="58045">
+				<rom name="renault where to find your renault dealer tape 2 side b.tzx" size="58045" crc="01b2f134" sha1="89660a32414575f3621043177be138fbb1f3a874"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<!-- ##############################################################################################################################
 	     Titles beginning with 'S'
 	     ############################################################################################################################## -->
 
 	<software name="shockmd">
 		<!-- NC128 -->
-		<!--    Generated from the "SHOCKSAVER" program in the covertape for Sinclair User #85  -->
+		<!-- Generated from the "SHOCKSAVER" program in the covertape for Sinclair User #85 -->
 		<description>Shock Megademo</description>
 		<year>1992</year>
 		<publisher>Sinclair User</publisher>
+		<info name="author" value="ESI"/>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="100007">
 				<rom name="shock megademo.tzx" size="100007" crc="c45bb9bb" sha1="dd87ade12ae39fd3b150f3250ec0e0a6f7906643"/>
@@ -24507,7 +24949,7 @@ license:CC0
 		<description>Super Sprint (The Hit Squad)</description>
 		<year>1987</year>
 		<publisher>Electric Dreams Software / The Hit Squad</publisher>
-			<part name="cass" interface="spectrum_cass">
+		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="52544">
 				<rom name="super sprint (the hit squad).tzx" size="52544" crc="f1912dc5" sha1="d8d98be166233c5694407b35f36aab683b3ac105"/>
 			</dataarea>
@@ -27560,6 +28002,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="trapdor2s4" cloneof="trapdor2">
+		<description>Through The Trap Door (System 4)</description>
+		<year>1987</year>
+		<publisher>System 4</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="40338">
+				<rom name="Through The Trap Door (System 4).tzx" size="40338" crc="cc1a4611" sha1="13cd3901887bd822d42a7e123546a94a221fc999"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="trpdorcl">
 		<description>The Trap Door &amp; Through The Trap Door</description>
 		<year>1990</year>
@@ -27759,6 +28212,17 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="50773">
 				<rom name="tapper_tzx120.tzx" size="50773" crc="ff5ef4f1" sha1="47ad67382c8d085074d416488ea7b2804058cc13"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="tappere" cloneof="tapper">
+		<description>Tapper (Erbe)</description>
+		<year>1985</year>
+		<publisher>Erbe Software</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="50687">
+				<rom name="Tapper (Erbe).tzx" size="50687" crc="d9dec919" sha1="1c4da0ebb827c9b89cdd70c07ff770c59eba1ded"/>
 			</dataarea>
 		</part>
 	</software>
@@ -28264,6 +28728,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="venusinv">
+		<description>Venusian Invaders</description>
+		<year>1986</year>
+		<publisher>Luis Mezquita Raya</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="36740">
+				<rom name="Venusian Invaders.tzx" size="36740" crc="1aa765b3" sha1="9d0505644a4bb6c6d86a586debe741720768d391"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="vcnapia">
 		<description>Viaje al Centro de la Napia</description>
 		<year>2010</year>
@@ -28322,6 +28797,20 @@ license:CC0
 	<!-- ##############################################################################################################################
 	     Titles beginning with 'W'
 	     ############################################################################################################################## -->
+
+	<software name="wanderx" cloneof="xadom">
+		<!--
+		    Bootleg release of Xadom.
+		-->
+		<description>Wander X</description>
+		<year>1984</year>
+		<publisher>Visiogame</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="47230">
+				<rom name="wanderx.tzx" size="47230" crc="c731f870" sha1="8ace1bffa4dd005c7d90f811a4c9a1d8880e88ee"/>
+			</dataarea>
+		</part>
+	</software>
 
 	<software name="wilwasp">
 		<description>Willy The Wasp</description>
@@ -28446,7 +28935,7 @@ license:CC0
 				<rom name="wonder boy (the hit squad) - alternate - side 1.tzx" size="101989" crc="1192f199" sha1="0e96c17566e2473355ad2bba0cc567ff86b83650"/>
 			</dataarea>
 		</part>
-			<part name="cass2" interface="spectrum_cass">
+		<part name="cass2" interface="spectrum_cass">
 			<feature name="part_id" value="Side 2"/>
 			<dataarea name="cass" size="29482">
 				<rom name="wonder boy (the hit squad) - alternate - side 2.tzx" size="29482" crc="e608576c" sha1="55ee715194b1c088f46364a6b37531114bd92855"/>
@@ -29861,7 +30350,7 @@ license:CC0
 		<publisher>Argus Press Software Ltd</publisher>
 		<part name="cass1" interface="spectrum_cass">
 			<feature name="part_id" value="Tape 1 - Side 1 - Carpet Capers, Antics, Planetfall, Gridrunner, Bismark, Meteor Storm, Jet Set Gertie"/>
-				<dataarea name="cass" size="186165">
+			<dataarea name="cass" size="186165">
 				<rom name="30 games - side 1.tzx" size="186165" crc="71f8cbb8" sha1="1bff04db16b5b5c17350aa1455dd5d92c8d7de00"/>
 			</dataarea>
 		</part>
@@ -31833,6 +32322,506 @@ license:CC0
 	</software>
 
 	<!-- ##############################################################################################################################
+	      Type-in compilation cassettes from "MicroHobby Semanal"
+	     ############################################################################################################################## -->
+
+	<software name="mhobbys01">
+		<description>MicroHobby Semanal (Issues 001-004)</description>
+		<year>1984</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="61405">
+				<rom name="microhobby semanal 1-4 - side a.tzx" size="61405" crc="e6e3f873" sha1="fd6d57c1426842dc391165b18a0718af556af1a3"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="69749">
+				<rom name="microhobby semanal 1-4 - side b.tzx" size="69749" crc="8c7c46e4" sha1="6e2571fbfa1670ed9ade196ece5311d4bc0f67e6"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys02">
+		<description>MicroHobby Semanal (Issues 005-008)</description>
+		<year>1984</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="68825">
+				<rom name="microhobby semanal 5-8 - side a.tzx" size="68825" crc="87ce9852" sha1="fba5fabffd6d0616de971240262959a9ee416342"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="76460">
+				<rom name="microhobby semanal 5-8 - side b.tzx" size="76460" crc="d2fe6ae9" sha1="70d7f0ec1f28d70124d4cf098bdcea4f60298014"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys03">
+		<description>MicroHobby Semanal (Issues 009-012)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="90006">
+				<rom name="microhobby semanal 9-12 - side a.tzx" size="90006" crc="210d1151" sha1="2ac517b44f20e63362a3a297c87368d7dd87c497"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="89506">
+				<rom name="microhobby semanal 9-12 - side b.tzx" size="89506" crc="c25dcbfd" sha1="d1c1720a375c19174281c2863346ca1d16e790c2"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys04">
+		<description>MicroHobby Semanal (Issues 013-016)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="74292">
+				<rom name="microhobby semanal 13-16 - side a.tzx" size="74292" crc="8f748ac7" sha1="023342788383ef198dbb2633b1fdec0c9975669a"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="70595">
+				<rom name="microhobby semanal 13-16 - side b.tzx" size="70595" crc="ead4d469" sha1="01710cf075446a91dc2da928e76ae186f0683dce"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys05">
+		<description>MicroHobby Semanal (Issues 017-020)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="82761">
+				<rom name="microhobby semanal 17-20 - side a.tzx" size="82761" crc="90dea1e3" sha1="6c0a26fd6bf47771424c2f49798fa0e016fa3eaf"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="80362">
+				<rom name="microhobby semanal 17-20 - side b.tzx" size="80362" crc="c2b9ff48" sha1="3ec3f7709a68af5c9edce6d2952e1d0aade9f850"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys06">
+		<description>MicroHobby Semanal (Issues 021-024)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="70815">
+				<rom name="microhobby semanal 21-24 - side a.tzx" size="70815" crc="d16ea7a2" sha1="d8fd62a245fdda9686652e57d4461913fb9e0786"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="70154">
+				<rom name="microhobby semanal 21-24 - side b.tzx" size="70154" crc="77e87e0c" sha1="eb6f428706e2a9b1574894485640f9859993ba86"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys07">
+		<description>MicroHobby Semanal (Issues 025-028)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="88048">
+				<rom name="microhobby semanal 25-28 - side a.tzx" size="88048" crc="faafc824" sha1="3be0576d79197a4b6d9aa674ecb8bbff345ef08e"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="92203">
+				<rom name="microhobby semanal 25-28 - side b.tzx" size="92203" crc="a1d2dc9e" sha1="f7d5cd0686f41d581ee6c5c4d4853e29043f0e63"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys08">
+		<description>MicroHobby Semanal (Issues 029-032)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="83169">
+				<rom name="microhobby semanal 29-32 - side a.tzx" size="83169" crc="9fd8f7a0" sha1="36ca5bf3f60bb3a7401e6e904021070e14097eb9"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="82888">
+				<rom name="microhobby semanal 29-32 - side b.tzx" size="82888" crc="8cc0c8bd" sha1="8f43e553e3e306bdca3081887c054053dd0c774f"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys09">
+		<description>MicroHobby Semanal (Issues 033-036)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="96352">
+				<rom name="microhobby semanal 33-36 - side a.tzx" size="96352" crc="3353cf74" sha1="8bb29729d0ce1d0803034874b7a184fafc60cf1f"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="98363">
+				<rom name="microhobby semanal 33-36 - side b.tzx" size="98363" crc="1f86e68d" sha1="485ad1a1ab03947d10b26f74ffc90595382ec5be"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys10">
+		<description>MicroHobby Semanal (Issues 037-040)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="96080">
+				<rom name="microhobby semanal 37-40 - side a.tzx" size="96080" crc="f998f67b" sha1="000b9ff5083253a68a62e20a24c6d440324c86a8"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="91174">
+				<rom name="microhobby semanal 37-40 - side b.tzx" size="91174" crc="cba2f07a" sha1="223291416e75fc0429b42d5dbfd5bc2fb9ae433c"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys11">
+		<description>MicroHobby Semanal (Issues 041-044)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="90617">
+				<rom name="microhobby semanal 41-44 - side a.tzx" size="90617" crc="971384db" sha1="bd788aa9d731b96613c08fa160388bae7e4e7c6a"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="89993">
+				<rom name="microhobby semanal 41-44 - side b.tzx" size="89993" crc="148769de" sha1="51d38e10ee51fb80e3ebedcca5e87cdf419aee3a"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys12">
+		<description>MicroHobby Semanal (Issues 045-048)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="78510">
+				<rom name="microhobby semanal 45-48 - side a.tzx" size="78510" crc="d7f03479" sha1="d8c6c067b094fbd21aedae63402d42993e02354c"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="80133">
+				<rom name="microhobby semanal 45-48 - side b.tzx" size="80133" crc="1cc4151e" sha1="a6c45d2dedf887ba42af94bd3d09a72a5fd58f92"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys13">
+		<description>MicroHobby Semanal (Issues 049-052)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="48077">
+				<rom name="microhobby semanal 49-52 - side a.tzx" size="48077" crc="681c2bd5" sha1="2200068d02535e91ca91aa5dc1c103a17f148939"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="48043">
+				<rom name="microhobby semanal 49-52 - side b.tzx" size="48043" crc="7635e457" sha1="cc375f5e9110934adcf5478439a0b098b56a18e5"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys14">
+		<description>MicroHobby Semanal (Issues 053-056)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="53872">
+				<rom name="microhobby semanal 53-56 - side a.tzx" size="53872" crc="f85542da" sha1="23f71bdea8f7cf7831776de4b115e3fd368a5848"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="58840">
+				<rom name="microhobby semanal 53-56 - side b.tzx" size="58840" crc="940a325a" sha1="3fd2e11db1c51bd651860c64419232f2955bd5e3"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys15">
+		<description>MicroHobby Semanal (Issues 057-060)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="56134">
+				<rom name="microhobby semanal 57-60 - side a.tzx" size="56134" crc="ab5b1a1e" sha1="402026f17bd144b08d802778535306e9dffe5721"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="55101">
+				<rom name="microhobby semanal 57-60 - side b.tzx" size="55101" crc="0d667a83" sha1="0cbdf9db49adcd5d4ec9456b962111c0b53648a3"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys16">
+		<description>MicroHobby Semanal (Issues 061-064)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="40140">
+				<rom name="microhobby semanal 61-64 - side a.tzx" size="40140" crc="dc000f02" sha1="1d5fdf1d8c4edd5e7ab877d85dad234fb91da6f3"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="46433">
+				<rom name="microhobby semanal 61-64 - side b.tzx" size="46433" crc="69deb849" sha1="c842ac1b0f6b31802d36e0b5da6ec5044bd4c23d"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys17">
+		<description>MicroHobby Semanal (Issues 065-068)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="55231">
+				<rom name="microhobby semanal 65-68 - side a.tzx" size="55231" crc="49fe3fd2" sha1="17779001cb55e443f4466a4ef284694677436496"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="56901">
+				<rom name="microhobby semanal 65-68 - side b.tzx" size="56901" crc="1b06ef44" sha1="e5d924a58135df1036c1a97d86d1cc9ed5934837"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys18">
+		<description>MicroHobby Semanal (Issues 069-072)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="48372">
+				<rom name="microhobby semanal 69-72 - side a.tzx" size="48372" crc="5792eb77" sha1="e34c3d282c263233106739c57783c80970d956f0"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="41774">
+				<rom name="microhobby semanal 69-72 - side b.tzx" size="41774" crc="94e5f072" sha1="f5395d9abb52ad30774bab38c6dab2bb263a34f2"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys19">
+		<description>MicroHobby Semanal (Issues 073-076)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="57711">
+				<rom name="microhobby semanal 73-76 - side a.tzx" size="57711" crc="294ee071" sha1="c6a66159c019cfe465dfa0bba7a38894d8c62288"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="58578">
+				<rom name="microhobby semanal 73-76 - side b.tzx" size="58578" crc="61d766dd" sha1="776948860dccab4cb45ee5f919e0a06d8c79d4dc"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys20">
+		<description>MicroHobby Semanal (Issues 077-080)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="54846">
+				<rom name="microhobby semanal 77-80 - side a.tzx" size="54846" crc="29578cd2" sha1="e13e22d10c4c46ea3232fa4f11dec071c7360ff2"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="50310">
+				<rom name="microhobby semanal 77-80 - side b.tzx" size="50310" crc="24b56857" sha1="13d3bd03d0177380b92af54a8c526d538dd159b2"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys21">
+		<description>MicroHobby Semanal (Issues 081-084)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="39226">
+				<rom name="microhobby semanal 81-84 - side a.tzx" size="39226" crc="fef0ccba" sha1="e7abd2cbde227f57a157a714a994b7a6222b8914"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="46960">
+				<rom name="microhobby semanal 81-84 - side b.tzx" size="46960" crc="09379e86" sha1="295c4861d2dc0666443c77a6b0d0e5ad1df40531"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys22">
+		<description>MicroHobby Semanal (Issues 085-088)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="37980">
+				<rom name="microhobby semanal 85-88 - side a.tzx" size="37980" crc="87fce371" sha1="a48b03b20eb9424336a78c44646a72ccf175d9be"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="26993">
+				<rom name="microhobby semanal 85-88 - side b.tzx" size="26993" crc="cb534089" sha1="6815403dbf32a8d8a68994ed59f0a47720a358d8"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys23">
+		<description>MicroHobby Semanal (Issues 089-092)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="33940">
+				<rom name="microhobby semanal 89-92 - side a.tzx" size="33940" crc="e650136f" sha1="b07abcb2fbe09427b3bbb8413df47ec9210fa345"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="30358">
+				<rom name="microhobby semanal 89-92 - side b.tzx" size="30358" crc="a6649c48" sha1="5f2e83885944f531fb1dd0608cad37a9f8feaafe"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys24">
+		<description>MicroHobby Semanal (Issues 093-096)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="57998">
+				<rom name="microhobby semanal 93-96 - side a.tzx" size="57998" crc="f5420fbe" sha1="e85e871bbecc579f7a834a0e3dd493292a6dd6a2"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="51733">
+				<rom name="microhobby semanal 93-96 - side b.tzx" size="51733" crc="059cd191" sha1="103f45f229e761e1e0ca499b3dc127a24cf94900"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys25">
+		<description>MicroHobby Semanal (Issues 097-100)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="52212">
+				<rom name="microhobby semanal 97-100 - side a.tzx" size="52212" crc="cee43a9e" sha1="7ad52c33ccf87f0a0797aecd86aa4b85c4ccc87b"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="49876">
+				<rom name="microhobby semanal 97-100 - side b.tzx" size="49876" crc="44dafac1" sha1="932122b4cb26cbc9f613d0bd9e3994a5fe1614dc"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys26">
+		<description>MicroHobby Semanal (Issues 101-104)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="45193">
+				<rom name="microhobby semanal 101-104 - side a.tzx" size="45193" crc="618f53d0" sha1="5ee5c799e488a5a3cb473e663cbb1d47ad8550c0"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="22417">
+				<rom name="microhobby semanal 101-104 - side b.tzx" size="22417" crc="e268e24c" sha1="7df380e428826e74d6809c52b230815abb8ea685"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys27">
+		<description>MicroHobby Semanal (Issues 105-108)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="58877">
+				<rom name="microhobby semanal 105-108 - side a.tzx" size="58877" crc="afb8cb0f" sha1="61065011c56a814251b814fd2ca56402068acc1b"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="60963">
+				<rom name="microhobby semanal 105-108 - side b.tzx" size="60963" crc="25189001" sha1="c70d8ec838517725f9ed28e045903b7df3287759"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys28">
+		<description>MicroHobby Semanal (Issues 109-112)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="49045">
+				<rom name="microhobby semanal 109-112 - side a.tzx" size="49045" crc="1f20bb77" sha1="ea7d59ffd4774343a6a40bc888995bb81d709cda"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="42283">
+				<rom name="microhobby semanal 109-112 - side b.tzx" size="42283" crc="abfa22b2" sha1="64f3a3a7eae135649c6fb34c824d8633026197bc"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys29">
+		<description>MicroHobby Semanal (Issues 113-116)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="39999">
+				<rom name="microhobby semanal 113-116 - side a.tzx" size="39999" crc="03445e96" sha1="f8dbf3a92ab5f33613e12f551ed187e2d2331dee"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="33168">
+				<rom name="microhobby semanal 113-116 - side b.tzx" size="33168" crc="d9f694c7" sha1="5c0e5b67dd49620d1d013c5b423b6f6d9f9a0b69"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys30">
+		<description>MicroHobby Semanal (Issues 117-120)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="30449">
+				<rom name="microhobby semanal 117-120 - side a.tzx" size="30449" crc="039acf1b" sha1="415f4532917088d08dd8a0b03a6185b4d526239d"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="36703">
+				<rom name="microhobby semanal 117-120 - side b.tzx" size="36703" crc="7f23a0a4" sha1="52b8047ed0dfe4ef3f267b77db3e675991f4f27c"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbys31">
+		<description>MicroHobby Semanal (Issues 121-124)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="29865">
+				<rom name="microhobby semanal 121-124 - side a.tzx" size="29865" crc="263b4bee" sha1="cb07c7a3824a0b6dd99299570a549124248c0458"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="40535">
+				<rom name="microhobby semanal 121-124 - side b.tzx" size="40535" crc="58579574" sha1="858b2a0193997be1ab948a3ec2708ba391790aed"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- ##############################################################################################################################
 	      Covertapes from "MicroHobby"
 	     ############################################################################################################################## -->
 
@@ -31841,19 +32830,43 @@ license:CC0
 		<year>1985</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
+			<feature name="part_id" value="Side A: Hobby Suerte"/>
 			<dataarea name="cass" size="37784">
 				<rom name="microhobby suerte (side a).tzx" size="37784" crc="0224414e" sha1="bacd8305e2c13572805f0bcbd65772d3eb716e50"/>
 			</dataarea>
 		</part>
 		<part name="cass2" interface="spectrum_cass">
+			<feature name="part_id" value="Side B: Moon Battle"/>
 			<dataarea name="cass" size="43079">
 				<rom name="microhobby suerte (side b).tzx" size="43079" crc="97e25806" sha1="c2a251b92992f4687bcd77a4acaa54418d51f8e5"/>
 			</dataarea>
 		</part>
 	</software>
 
+	<software name="mhobby037">
+		<!--
+		    Released on flexi disc as a freebie.
+		-->
+		<description>MicroHobby (Issue 037) Discoflex</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<feature name="part_id" value="Side A: Wargame"/>
+			<dataarea name="cass" size="24600">
+				<rom name="microhobby 037 discoflex side a wargame.tzx" size="24600" crc="9d9c65f5" sha1="d2a606fa5fe92ac2d53adb728c4a4138bee1971e"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<!-- NC128 -->
+			<feature name="part_id" value="Side B: Hyper Sports (demo)"/>
+			<dataarea name="cass" size="37477">
+				<rom name="microhobby 037 discoflex side b hyper sports demo.tzx" size="37477" crc="cb462b1d" sha1="1f53de14ca22802706a49d7736dbc27867e2ba15"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="mhobby182s01">
-		<description>MicroHobby (Issue 182) Seleccion 01</description>
+		<description>MicroHobby (Issue 182) Selección 01</description>
 		<year>1988</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -31870,7 +32883,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby183s02">
-		<description>MicroHobby (Issue 183) Seleccion 02</description>
+		<description>MicroHobby (Issue 183) Selección 02</description>
 		<year>1988</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -31886,7 +32899,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby184s03">
-		<description>MicroHobby (Issue 184) Seleccion 03</description>
+		<description>MicroHobby (Issue 184) Selección 03</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -31902,7 +32915,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby185s04">
-		<description>MicroHobby (Issue 185) Seleccion 04</description>
+		<description>MicroHobby (Issue 185) Selección 04</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -31918,7 +32931,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby186s05">
-		<description>MicroHobby (Issue 186) Seleccion 05</description>
+		<description>MicroHobby (Issue 186) Selección 05</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -31934,7 +32947,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby187s06">
-		<description>MicroHobby (Issue 187) Seleccion 06</description>
+		<description>MicroHobby (Issue 187) Selección 06</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -31950,7 +32963,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby188s07">
-		<description>MicroHobby (Issue 188) Seleccion 07</description>
+		<description>MicroHobby (Issue 188) Selección 07</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -31966,7 +32979,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby189s08">
-		<description>MicroHobby (Issue 189) Seleccion 08</description>
+		<description>MicroHobby (Issue 189) Selección 08</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -31982,7 +32995,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby190s09">
-		<description>MicroHobby (Issue 190) Seleccion 09</description>
+		<description>MicroHobby (Issue 190) Selección 09</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -31998,7 +33011,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby190s10">
-		<description>MicroHobby (Issue 190) Seleccion 10</description>
+		<description>MicroHobby (Issue 190) Selección 10</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32014,7 +33027,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby191s11">
-		<description>MicroHobby (Issue 191) Seleccion 11</description>
+		<description>MicroHobby (Issue 191) Selección 11</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32030,7 +33043,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby192s12">
-		<description>MicroHobby (Issue 192) Seleccion 12</description>
+		<description>MicroHobby (Issue 192) Selección 12</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32046,7 +33059,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby192s13">
-		<description>MicroHobby (Issue 192) Seleccion 13</description>
+		<description>MicroHobby (Issue 192) Selección 13</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32062,7 +33075,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby193s14">
-		<description>MicroHobby (Issue 193) Seleccion 14</description>
+		<description>MicroHobby (Issue 193) Selección 14</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32078,7 +33091,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby194s15">
-		<description>MicroHobby (Issue 194) Seleccion 15</description>
+		<description>MicroHobby (Issue 194) Selección 15</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32094,7 +33107,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby194s16">
-		<description>MicroHobby (Issue 194) Seleccion 16</description>
+		<description>MicroHobby (Issue 194) Selección 16</description>
 		<year>1989</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32110,7 +33123,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby195s17">
-		<description>MicroHobby (Issue 195) Seleccion 17</description>
+		<description>MicroHobby (Issue 195) Selección 17</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32126,7 +33139,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby195s18">
-		<description>MicroHobby (Issue 195) Seleccion 18</description>
+		<description>MicroHobby (Issue 195) Selección 18</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32142,7 +33155,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby196s19">
-		<description>MicroHobby (Issue 196) Seleccion 19</description>
+		<description>MicroHobby (Issue 196) Selección 19</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32158,7 +33171,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby197s20">
-		<description>MicroHobby (Issue 197) Seleccion 20</description>
+		<description>MicroHobby (Issue 197) Selección 20</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32174,7 +33187,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby198s21">
-		<description>MicroHobby (Issue 198) Seleccion 21</description>
+		<description>MicroHobby (Issue 198) Selección 21</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32190,7 +33203,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby199s22">
-		<description>MicroHobby (Issue 199) Seleccion 22</description>
+		<description>MicroHobby (Issue 199) Selección 22</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32206,7 +33219,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby200s23">
-		<description>MicroHobby (Issue 200) Seleccion 23</description>
+		<description>MicroHobby (Issue 200) Selección 23</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32222,7 +33235,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby200s24">
-		<description>MicroHobby (Issue 200) Seleccion 24</description>
+		<description>MicroHobby (Issue 200) Selección 24</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32238,7 +33251,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby201s25">
-		<description>MicroHobby (Issue 201) Seleccion 25</description>
+		<description>MicroHobby (Issue 201) Selección 25</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32254,7 +33267,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby201s26">
-		<description>MicroHobby (Issue 201) Seleccion 26</description>
+		<description>MicroHobby (Issue 201) Selección 26</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32270,7 +33283,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby202s27">
-		<description>MicroHobby (Issue 202) Seleccion 27</description>
+		<description>MicroHobby (Issue 202) Selección 27</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32286,7 +33299,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby203s28">
-		<description>MicroHobby (Issue 203) Seleccion 28</description>
+		<description>MicroHobby (Issue 203) Selección 28</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32302,7 +33315,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby204s29">
-		<description>MicroHobby (Issue 204) Seleccion 29</description>
+		<description>MicroHobby (Issue 204) Selección 29</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32318,7 +33331,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby204s30">
-		<description>MicroHobby (Issue 204) Seleccion 30</description>
+		<description>MicroHobby (Issue 204) Selección 30</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32334,7 +33347,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby205s31">
-		<description>MicroHobby (Issue 205) Seleccion 31</description>
+		<description>MicroHobby (Issue 205) Selección 31</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32350,7 +33363,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby205s32">
-		<description>MicroHobby (Issue 205) Seleccion 32</description>
+		<description>MicroHobby (Issue 205) Selección 32</description>
 		<year>1990</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32366,7 +33379,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby206s33">
-		<description>MicroHobby (Issue 206) Seleccion 33</description>
+		<description>MicroHobby (Issue 206) Selección 33</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32382,7 +33395,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby207s34">
-		<description>MicroHobby (Issue 207) Seleccion 34</description>
+		<description>MicroHobby (Issue 207) Selección 34</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32398,7 +33411,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby208s35">
-		<description>MicroHobby (Issue 208) Seleccion 35</description>
+		<description>MicroHobby (Issue 208) Selección 35</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32414,7 +33427,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby209s36">
-		<description>MicroHobby (Issue 209) Seleccion 36</description>
+		<description>MicroHobby (Issue 209) Selección 36</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32430,7 +33443,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby210s37">
-		<description>MicroHobby (Issue 210) Seleccion 37</description>
+		<description>MicroHobby (Issue 210) Selección 37</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32446,7 +33459,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby211s38">
-		<description>MicroHobby (Issue 211) Seleccion 38</description>
+		<description>MicroHobby (Issue 211) Selección 38</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32462,7 +33475,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby211s39">
-		<description>MicroHobby (Issue 211) Seleccion 39</description>
+		<description>MicroHobby (Issue 211) Selección 39</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32478,7 +33491,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby212s40">
-		<description>MicroHobby (Issue 212) Seleccion 40</description>
+		<description>MicroHobby (Issue 212) Selección 40</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32494,7 +33507,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby212s41">
-		<description>MicroHobby (Issue 212) Seleccion 41</description>
+		<description>MicroHobby (Issue 212) Selección 41</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32510,7 +33523,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby213s42">
-		<description>MicroHobby (Issue 213) Seleccion 42</description>
+		<description>MicroHobby (Issue 213) Selección 42</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32526,7 +33539,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby214s43">
-		<description>MicroHobby (Issue 214) Seleccion 43</description>
+		<description>MicroHobby (Issue 214) Selección 43</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32542,7 +33555,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby215s44">
-		<description>MicroHobby (Issue 215) Seleccion 44</description>
+		<description>MicroHobby (Issue 215) Selección 44</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32558,7 +33571,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby215s45">
-		<description>MicroHobby (Issue 215) Seleccion 45</description>
+		<description>MicroHobby (Issue 215) Selección 45</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32574,7 +33587,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby216s46">
-		<description>MicroHobby (Issue 216) Seleccion 46</description>
+		<description>MicroHobby (Issue 216) Selección 46</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32590,7 +33603,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby217s47">
-		<description>MicroHobby (Issue 217) Seleccion 47</description>
+		<description>MicroHobby (Issue 217) Selección 47</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32606,7 +33619,7 @@ license:CC0
 	</software>
 
 	<software name="mhobby217s48">
-		<description>MicroHobby (Issue 217) Seleccion 48</description>
+		<description>MicroHobby (Issue 217) Selección 48</description>
 		<year>1991</year>
 		<publisher>Hobby Press</publisher>
 		<part name="cass1" interface="spectrum_cass">
@@ -32617,6 +33630,218 @@ license:CC0
 		<part name="cass2" interface="spectrum_cass">
 			<dataarea name="cass" size="93667">
 				<rom name="microhobby issue 217 - tape 48 (side b).tzx" size="93667" crc="73cf3eb6" sha1="e2a9980dfe61455cd89c2c8620284951fa04d1a8"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- ##############################################################################################################################
+	      Covertapes from "MicroHobby Cassette"
+	     ############################################################################################################################## -->
+
+	<software name="mhobbyc01">
+		<description>MicroHobby Cassette (Issue 01)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="60442">
+				<rom name="microhobby cassette (issue 01) - side a.tzx" size="60442" crc="7bb36d35" sha1="30105d56f9a28810b50b3a37e1250cdf4e8dd182"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="62405">
+				<rom name="microhobby cassette (issue 01) - side b.tzx" size="62405" crc="c219597e" sha1="177280a35296c3b1582f0b3155f3ce09116d765e"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc02">
+		<description>MicroHobby Cassette (Issue 02)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="59160">
+				<rom name="microhobby cassette (issue 02) - side a.tzx" size="59160" crc="e41a4cf8" sha1="fdb6cfaf159bffd5e71927e1987ce33981722201"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="50970">
+				<rom name="microhobby cassette (issue 02) - side b.tzx" size="50970" crc="ed75b7d9" sha1="a7ca9e8914dccdb54de02e0d0420b2fbb0505047"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc03">
+		<description>MicroHobby Cassette (Issue 03)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="69226">
+				<rom name="microhobby cassette (issue 03) - side a.tzx" size="69226" crc="dbda4fe6" sha1="5370c578240c7c6c6eee45ca091df388baaabb1c"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="65496">
+				<rom name="microhobby cassette (issue 03) - side b.tzx" size="65496" crc="fca0734a" sha1="f3167603bec6a49c542945b4b5c8a651bc7c6923"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc04">
+		<description>MicroHobby Cassette (Issue 04)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="61657">
+				<rom name="microhobby cassette (issue 04) - side a.tzx" size="61657" crc="e9e09dcf" sha1="79eb025d73cc2183f5b6cd963123d0baded9d273"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="59215">
+				<rom name="microhobby cassette (issue 04) - side b.tzx" size="59215" crc="9e87f458" sha1="c85641d47bba9ff084f6b7d2acdcefe728f1fabd"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc05">
+		<description>MicroHobby Cassette (Issue 05)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="60511">
+				<rom name="microhobby cassette (issue 05) - side a.tzx" size="60511" crc="e7021274" sha1="cbd4c1e97f056351ae3385cf1d3e3775f24e1c3f"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="64608">
+				<rom name="microhobby cassette (issue 05) - side b.tzx" size="64608" crc="335da394" sha1="b32c07a75225a6c6f96bc9217eaa431c64ff2666"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc06">
+		<description>MicroHobby Cassette (Issue 06)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="76734">
+				<rom name="microhobby cassette (issue 06) - side a.tzx" size="76734" crc="7810a705" sha1="cf285696f5349c8a643190ea9d5707f11f13f0f7"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="53885">
+				<rom name="microhobby cassette (issue 06) - side b.tzx" size="53885" crc="52b5125e" sha1="b1d7e66ab16f26e585271dcfc37e025e1f06584d"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc07">
+		<description>MicroHobby Cassette (Issue 07)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="80385">
+				<rom name="microhobby cassette (issue 07) - side a.tzx" size="80385" crc="1b676dc6" sha1="926da6674c9fd992b6ea214bb97089882df85e44"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="75044">
+				<rom name="microhobby cassette (issue 07) - side b.tzx" size="75044" crc="3f27dceb" sha1="a78f2f4f9b80ae909352cb2beb8aa2a9a3fc74e7"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc08">
+		<description>MicroHobby Cassette (Issue 08)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="105411">
+				<rom name="microhobby cassette (issue 08) - side a.tzx" size="105411" crc="d03a1ea5" sha1="efae28ac9cb9c5d0725873b894802383ccb49c3b"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="124177">
+				<rom name="microhobby cassette (issue 08) - side b.tzx" size="124177" crc="c908c814" sha1="c01b809f1f5569a6cf9958bb0c138ae4ba8af34c"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc09">
+		<description>MicroHobby Cassette (Issue 09)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="86979">
+				<rom name="microhobby cassette (issue 09) - side a.tzx" size="86979" crc="9d81f97b" sha1="3f2743ec6b12f4e61d15ead7ca9ab180f61ce0b1"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="72664">
+				<rom name="microhobby cassette (issue 09) - side b.tzx" size="72664" crc="88104949" sha1="d77a43dbfc929c0634ce01e9954285a4d123a0b3"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc10">
+		<description>MicroHobby Cassette (Issue 10)</description>
+		<year>1985</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="131736">
+				<rom name="microhobby cassette (issue 10) - side a.tzx" size="131736" crc="743ad86e" sha1="05c87b688d38b6c574807739015268eaf1e904a2"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="129509">
+				<rom name="microhobby cassette (issue 10) - side b.tzx" size="129509" crc="8248cb7e" sha1="95d372d25ac29141b6d42ff0ab9bd13d35eec487"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc11">
+		<description>MicroHobby Cassette (Issue 11)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="99830">
+				<rom name="microhobby cassette (issue 11) - side a.tzx" size="99830" crc="0d8c8f35" sha1="ad70b0e0e5e8af90bb3ff815b0e421642a69b03d"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="115314">
+				<rom name="microhobby cassette (issue 11) - side b.tzx" size="115314" crc="f3e60590" sha1="c77d6b1aec19dd50cd4a42570b51b31b30bde11d"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc12">
+		<description>MicroHobby Cassette (Issue 12)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="104857">
+				<rom name="microhobby cassette (issue 12) - side a.tzx" size="104857" crc="c512d8d1" sha1="f2cf14c3906b2fd801eb687686ebc456109ae23b"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="102265">
+				<rom name="microhobby cassette (issue 12) - side b.tzx" size="102265" crc="90526153" sha1="ef1caf35cf1f216f9d1b148e7d553f906f01149c"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mhobbyc13">
+		<description>MicroHobby Cassette (Issue 13)</description>
+		<year>1986</year>
+		<publisher>Hobby Press</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="127276">
+				<rom name="microhobby cassette (issue 13) - side a.tzx" size="127276" crc="900dbb6a" sha1="ff6720f376638e308e323dc71b0fcc118fe9f84c"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="134550">
+				<rom name="microhobby cassette (issue 13) - side b.tzx" size="134550" crc="b91857e5" sha1="c77e73d4846fb1bb8b360c4ae62e1be697ed30d6"/>
 			</dataarea>
 		</part>
 	</software>
@@ -32712,7 +33937,7 @@ license:CC0
 	</software>
 
 	<software name="lnrsp105">
-		<!--    Verified dump from trusted source. Previous version had one block missing and its loader altered.   -->
+		<!-- Verified dump from trusted source. Previous version had one block missing and its loader altered. -->
 		<description>Load'N'Run (Spain) (Issue 05)</description>
 		<year>1985</year>
 		<publisher>Mecsa / Inforpress</publisher>
@@ -32825,8 +34050,8 @@ license:CC0
 	</software>
 
 	<software name="lnrsp10e">
-		<!--    Verified dump from trusted source. Previous version had a block name altered and had been converted to TZX from a TAP file. -->
-		<!--    Both sides contain the same data    -->
+		<!-- Verified dump from trusted source. Previous version had a block name altered and had been converted to TZX from a TAP file. -->
+		<!-- Both sides contain the same data -->
 		<description>Load'N'Run (Spain) (Especial)</description>
 		<year>1985</year>
 		<publisher>Mecsa / Inforpress</publisher>
@@ -36254,6 +37479,727 @@ license:CC0
 		</part>
 	</software>
 
+	<!--
+	    ####################################
+	        Type-ins from "MicroHobby"
+	    ####################################
+	-->
+
+	<software name="timh125balalin">
+		<description>Balalín (type-in, MicroHobby #125)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Juan Carlos Caneiro Gago"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="7767">
+				<rom name="Balalin.tap" size="7767" crc="42fd702c" sha1="110fde199151c7f6d3ef94bf93b1e9fc9ee6d2d3"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh126magnusz">
+		<description>Magnus Zone (type-in, MicroHobby #126)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Carlos Quintero González"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="5785">
+				<rom name="Magnus Zone.tap" size="5785" crc="f5473a9b" sha1="24a42c3c4aea194575d0ba7f9b9a94f76403f3c0"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh127oraculoe">
+		<!--
+		    Graphics set was published incomplete, some cards aren't displayed correctly.
+		-->
+		<description>Oráculo Egipcio (type-in, MicroHobby #127)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Agustín Fernández and Antonio Fernández"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="24320">
+				<rom name="Oraculo Egipcio.tap" size="24320" crc="06ce6dbc" sha1="a973ffda800dc15a0e89fdb2c905f5f051357838"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh128demoliti">
+		<description>Demolition (type-in, MicroHobby #128)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Manuel Rodríguez Corzo (Coloma Soft)"/>
+		<info name="alt_title" value="El Muro (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="2862">
+				<rom name="Demolition.tap" size="2862" crc="468c4fbe" sha1="ab93bbef2a4f046b373e8b0b6f10b2d9a3e61821"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh129baskettr">
+		<description>Basket Trainer (type-in, MicroHobby #129)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="David Enrich and Victor Mora (Jantycar)"/>
+		<info name="alt_title" value="International Basketball (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="6171">
+				<rom name="Basket Trainer.tap" size="6171" crc="934683db" sha1="1438d78bdde2b6292b735a5677993bdc2eba609e"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh130galaxyf">
+		<description>Galaxy Fun (type-in, MicroHobby #130)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Juan José Sánchez Plaza"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="7940">
+				<rom name="Galaxy Fun.tap" size="7940" crc="bf2cb77d" sha1="03e9e7834601b1099febe848c9f0f8a4c5b9aa07"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh131microdr">
+		<description>Micro Draw (type-in, MicroHobby #131, #132)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Luis Ángel Alda Rodríguez"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="13387">
+				<rom name="Micro Draw.tap" size="13387" crc="a0ff47cb" sha1="50fa6a60a06fe928d0ef6138a7921ea5d3e86b21"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh133alambris">
+		<description>El Alambrista (type-in, MicroHobby #133)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Pilar and Ciriaco Uzquiaga"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="9214">
+				<rom name="El Alambrista.tap" size="9214" crc="edfe7ac0" sha1="5df8a066b618281de315c5819a62538048df01ad"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh134ranamire">
+		<description>Ranamirez (type-in, MicroHobby #134)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Vicente Javier Jiménez Vázquez"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="4905">
+				<rom name="Ranamirez.tap" size="4905" crc="cb22ec8b" sha1="d255df3e704994904fa239932ed873d4f20e3cd1"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh135formsuic">
+		<description>Fórmula Suicida (type-in, MicroHobby #135)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Carlos Quirós Fernández"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="5389">
+				<rom name="Formula Suicida.tap" size="5389" crc="49b536f0" sha1="1d73c7e4d1a59f9730960931367bc74438cfa3ec"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh136phantasm">
+		<description>Phantasmas (type-in, MicroHobby #136)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Vicente Javier Jiménez Vázquez"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="9244">
+				<rom name="Phantasmas.tap" size="9244" crc="e64aac02" sha1="958949b358af451406d686940d2a3d82511406e0"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh137dardos">
+		<description>Dardos (type-in, MicroHobby #137)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Sergio Hernández Cerezo"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="10929">
+				<rom name="Dardos.tap" size="10929" crc="6ca7350b" sha1="fe6852e2ad43ac67e0ef14a85b813a382a7ffcac"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh138semisis">
+		<description>S.E.M.I.S.I.S. (type-in, MicroHobby #138, #139)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Manuel Guillén Barranco"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="26151">
+				<rom name="S.E.M.I.S.I.S..tap" size="26151" crc="62a6c5dc" sha1="5ed991fb917986cbc640eb9125f719ffdd5dd6c1"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh140alleysg">
+		<description>Alley's Gun (type-in, MicroHobby #140)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Francisco Javier Cámara Melosa"/>
+		<info name="alt_title" value="Hogan's Alley (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="29615">
+				<rom name="Alleys Gun.tap" size="29615" crc="f75b1b70" sha1="686899c7b840e111850e62d5b691958641fff7e0"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh141kleingel">
+		<description>Kleingeld (type-in, MicroHobby #141, #142)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="José Manuel Herrerías Esteban"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="31107">
+				<rom name="Kleingeld.tap" size="31107" crc="5b62a784" sha1="1f985875ee35aa84efaf42aae32751c59cc48aae"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh143caribesd">
+		<description>Caribe’s Day (type-in, MicroHobby #143)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="José Luis Simón Rubio and Javier Simón Rubio (Simon Soft)"/>
+		<info name="alt_title" value="Un Día en el Caribe (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="15457">
+				<rom name="Caribes Day.tap" size="15457" crc="4b1386c5" sha1="c99718160df45cbaf46549b44fc3b5a5915df1cb"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh144rally">
+		<description>Rally (type-in, MicroHobby #144)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Antonio Sánchez Albares (Tony Soft)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="6290">
+				<rom name="Rally.tap" size="6290" crc="becac5b9" sha1="dfe652c1bd60204385f91cc70f434edca72c2e9a"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh145profecia">
+		<description>La Profecía (type-in, MicroHobby #145)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Vicente Javier Jiménez Vázquez"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="9346">
+				<rom name="La Profecia.tap" size="9346" crc="93e25efb" sha1="758f188d66b79d2cc9c14a5055fe09a32c8fd98c"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh146minealer">
+		<description>Mine Alert (type-in, MicroHobby #146, #147)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Ramón Gallastegui"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="31396">
+				<rom name="Mine Alert.tap" size="31396" crc="540606d4" sha1="2138f91dae82105d4830e934ec83aea73a04e855"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh148freddy">
+		<description>Freddy (type-in, MicroHobby #148)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Antonio González Rivas and Luis Alberto González Rivas (HighSoftware)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="17165">
+				<rom name="Freddy.tap" size="17165" crc="a957ce8f" sha1="b62056c538e6c425d1a06275f93e3cb021699e23"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh149russatck">
+		<description>Russian's Attack (type-in, MicroHobby #149, #150)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Pablo I. Sánchez Martín"/>
+		<info name="alt_title" value="Wargame II - Russian's Attack (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="37790">
+				<rom name="Russians Attack.tap" size="37790" crc="6bc78d1c" sha1="21774a3e0114c8ae79f0ae7b0e643c6b89c26e53"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh151enruta">
+		<description>En Ruta (type-in, MicroHobby #151)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Miguel Ángel Montoya"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="9326">
+				<rom name="En Ruta.tap" size="9326" crc="55d7949d" sha1="8e01619c5916dd22cd22967f4623678a068ce46d"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh152zinco">
+		<description>Zinco (type-in, MicroHobby #152)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Juan José Rivas García"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="7496">
+				<rom name="Zinco.tap" size="7496" crc="8f1867ab" sha1="3bc5a5f8cf2703a6f8bd0f409c2bc5553d8fb469"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh153ruffosdr">
+		<description>Ruffo’s Dream (type-in, MicroHobby #153)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="José Antonio García and Juan José González"/>
+		<info name="alt_title" value="El Sueño de Ruffo (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="14613">
+				<rom name="Ruffos Dream.tap" size="14613" crc="ae8d4406" sha1="d8270207f52a6eb56ee16ece45e827ad001043b5"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh154crozet">
+		<description>Crozet (type-in, MicroHobby #154)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Tomás Ledo"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="7776">
+				<rom name="Crozet.tap" size="7776" crc="65446415" sha1="eabdc4e2868c5269fb179e9cd133dee2653629f7"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh155rockanim">
+		<!--
+		    Requires playing a music cassette to work.
+		-->
+		<description>Rock Animation (type-in, MicroHobby #155)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="José Enrique Ceballos Olmos"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="20261">
+				<rom name="Rock Animation.tap" size="20261" crc="d24ef54d" sha1="9ead7c6612574d421b7f807ee56b8299aa814ad6"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh156bunker">
+		<description>Bunker (type-in, MicroHobby #156)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Moisés Vilalta Pons"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="9128">
+				<rom name="Bunker.tap" size="9128" crc="7bdd1018" sha1="b92d68ea28952a14c5c849d6562624640f03e396"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh157telepuzz">
+		<!--
+		    Requires loading 2-4 SCREEN$ blocks to work.
+		    Was published with a wrong loading address for one machine code block, which had to be fixed.
+		-->
+		<description>Telepuzzle (type-in, MicroHobby #157)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Eduardo Llana Ugalde"/>
+		<info name="alt_title" value="TV Puzzle (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="9865">
+				<rom name="Telepuzzle.tap" size="9865" crc="d0a44134" sha1="9342e40fdaba69ccf53f6eb4cdc5376df16b06a2"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh158golfoper">
+		<description>Golfo Pérsico (type-in, MicroHobby #158)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Ciriaco Uzquiaga Zardoya"/>
+		<info name="alt_title" value="Indiana Jones (loading screen), Indyana Jones (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="9436">
+				<rom name="Golfo Persico.tap" size="9436" crc="49b42913" sha1="5ae07999ab8b5ba5dca9e8aec360de7e05f1167f"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh159maddriv">
+		<description>Mad Drivers (type-in, MicroHobby #159)</description>
+		<year>1987</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Fernando de la Villa Albares"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="9527">
+				<rom name="Mad Drivers.tap" size="9527" crc="5600f239" sha1="5d88a964aa450b399e1bb149d38f9912ff028705"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh160bowlstar">
+		<description>Bowling Star (type-in, MicroHobby #160)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Miguel Ángel García Martínez"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="8316">
+				<rom name="Bowling Star.tap" size="8316" crc="0355937b" sha1="b86b2f54c4e2812f352785fb6de5ad93e470df63"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh161gascar">
+		<description>Gas-Car (type-in, MicroHobby #161)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Moisés Villa Rivas (Buho Soft)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="4867">
+				<rom name="Gas-Car.tap" size="4867" crc="030cd4d2" sha1="ea20a4a4aaa971f4895c96f290f33a6e024c0f8d"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh162ghostlik">
+		<description>Ghost Like (type-in, MicroHobby #162)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Rafael Eduardo García (Made In Argentina Soft)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="13935">
+				<rom name="Ghost Like.tap" size="13935" crc="c9ae8465" sha1="160056493caef3c2478c0da227c18ee80db3f84e"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh163skyinvad">
+		<description>Sky Invaders (type-in, MicroHobby #163)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Enrique López Martínez"/>
+		<info name="alt_title" value="Snake Vs Snake (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="5859">
+				<rom name="Sky Invaders.tap" size="5859" crc="c039f968" sha1="5870c0cbd04e89049f2a7f8c26d647a8ad2bea0e"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh164pericojo">
+		<description>Perico Jones (type-in, MicroHobby #164)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Fernando Ruza Rodríguez"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="19096">
+				<rom name="Perico Jones.tap" size="19096" crc="87747856" sha1="c46f6a8b1ed8743bd114d872553c36505f4d655a"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh165bradzote">
+		<description>Brad Zotes (type-in, MicroHobby #165)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Fernando Mouriño Varela, Alberto and Carlos"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="21949">
+				<rom name="Brad Zotes.tap" size="21949" crc="4e605b0b" sha1="5d2f082a46eb4edb444b77397268cb2cc3d799a0"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh166striker">
+		<description>Striker (type-in, MicroHobby #166)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Octavio Campos Barroso"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="4577">
+				<rom name="Striker.tap" size="4577" crc="c883a22b" sha1="e9f9de6852dc466fdcc5287a25745769b7585eba"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh167indy">
+		<description>Indy (type-in, MicroHobby #167)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Encarna Mengual Parra and Octavio Montagud Ballester"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="19666">
+				<rom name="Indy.tap" size="19666" crc="0e863ce4" sha1="d5e465b7d88c5f1140c71d0e9ce4fe4bde3a16c8"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh168topin">
+		<description>Topin (type-in, MicroHobby #168)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="José Ignacio Vicario P."/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="8939">
+				<rom name="Topin.tap" size="8939" crc="a1bd0d27" sha1="9eef446b0a1ebea3861280645511a8bf2dd3ebc1"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh169starlike">
+		<description>Starlike (type-in, MicroHobby #169)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Moisés Villa Rivas (Buho Soft)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="13685">
+				<rom name="Starlike.tap" size="13685" crc="b6ac7280" sha1="63244aa003fb42ee7d467e86330652a2f8f1473b"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh170tresraya">
+		<!--
+		    Crashes when pressing 6, something's wrong with it.
+		-->
+		<description>Tres en Raya (type-in, MicroHobby #170)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Alberto Vilades Laborda"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="5188">
+				<rom name="Tres en Raya.tap" size="5188" crc="a5f2f5b8" sha1="c263fe4328c85ad04c383fc51f59b32aeb366fe1" status="baddump"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh171goteras">
+		<description>Goteras (type-in, MicroHobby #171)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="César Álvarez and J. Ignacio Martín (Coslada Soft)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="5785">
+				<rom name="Goteras.tap" size="5785" crc="595a43f2" sha1="22c00d13361b9aa370c9b090d1ac960444d96a60"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh172parvisio">
+		<description>Parvision (type-in, MicroHobby #172)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="J. P. Olabarrieta"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="17038">
+				<rom name="Parvision.tap" size="17038" crc="fbce1994" sha1="a66d234d0f6ea4c63c790d2006c3479ddb217e31"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh173furax">
+		<!--
+		    Graphics garbled in title screen, was it published like this?
+		-->
+		<description>Furax (type-in, MicroHobby #173)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Fermín Gómez Laguna"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="6851">
+				<rom name="Furax.tap" size="6851" crc="44208e70" sha1="3bd0ae422a9c6acaf940feb93c4b132bc9703d1f"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh174duckshoo">
+		<description>Duck Shooting (type-in, MicroHobby #174)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Juan Francisco Vázquez"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="7730">
+				<rom name="Duck Shooting.tap" size="7730" crc="c436cc7a" sha1="eee8257c67e083d1719d5036ef78b77a6fb43eee"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh175nomenros">
+		<description>Nomen Rosae (type-in, MicroHobby #175)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Marco Montes de Oca González"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="29317">
+				<rom name="Nomen Rosae.tap" size="29317" crc="d8b6d817" sha1="5329c9ce0ea7615ed3a40bcdf25062888eac720c"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh176punkyman">
+		<description>PunkyMan (type-in, MicroHobby #176)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Luis Miguel Agudelo"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="21974">
+				<rom name="PunkyMan.tap" size="21974" crc="4a765ced" sha1="2a748d74c92b1ee6fa98017ef3aa6e391ff8af8f"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh177retyedi">
+		<description>El Retorno del Yedi (type-in, MicroHobby #177)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="José Victor Mora (Jantycar)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="5018">
+				<rom name="El Retorno del Yedi.tap" size="5018" crc="5f5435fb" sha1="04cdd2162f533be6b16236dd66c0c0a441325118"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh178skywar">
+		<!--
+		    To make it work under 48K Basic on a Spectrum +3, insert 'OUT 32765,48' before the RANDOMIZE instruction.
+		-->
+		<description>Sky Warrior (type-in, MicroHobby #178)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Rafael Albelda"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="11968">
+				<rom name="Sky Warrior.tap" size="11968" crc="547976e8" sha1="fa3f50a5e1756aa871bf95c54971261506fda041"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh179reptkon">
+		<description>Reptkon (type-in, MicroHobby #179)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Eduardo Martín"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="4072">
+				<rom name="Reptkon.tap" size="4072" crc="c2a71768" sha1="1d895f85de00e3f2cd821067acd773adbfeac2cb"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="timh180intro">
+		<description>Intro (type-in, MicroHobby #180)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="J. Manuel Sánchez Medina"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="40404">
+				<rom name="Intro.tap" size="40404" crc="987123f4" sha1="a5c78af5f50c5c949c078579fbf9ea1b44a3bcdc"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh181keops">
+		<description>Keops (type-in, MicroHobby #181)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Roberto Sarsa"/>
+		<info name="alt_title" value="Keops - La Aventura (in-game)"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="26163">
+				<rom name="Keops.tap" size="26163" crc="b3ba2810" sha1="521e645d8ac27784a06b8b6085a1f18299146a93"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh182sgawain">
+		<description>Sir Gawain (type-in, MicroHobby #182)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Alfonso Guerricabeitia"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="21786">
+				<rom name="Sir Gawain.tap" size="21786" crc="03180dab" sha1="cc8b15fc57aee2a8203f1412531f4096f4c80498"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh183snake">
+		<description>Snake (type-in, MicroHobby #183)</description>
+		<year>1988</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Álvaro de la Fuente"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="5154">
+				<rom name="Snake.tap" size="5154" crc="f4f5b9a4" sha1="d8d5e3ea58c8fb34e511e3a5f3bbcc189075b946"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh184micbowl">
+		<description>Microbowl (type-in, MicroHobby #184)</description>
+		<year>1989</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Luis Sánchez"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="13938">
+				<rom name="Microbowl.tap" size="13938" crc="a9857610" sha1="055c14ae102fc98224aded07803784f26c921725"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="timh185godspunk">
+		<description>God Save the Punk (type-in, MicroHobby #185)</description>
+		<year>1989</year>
+		<publisher>Hobby Press</publisher>
+		<info name="author" value="Fernando Pérez"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="12563">
+				<rom name="God Save the Punk.tap" size="12563" crc="681ce551" sha1="f00f732ad95e82395e58401a45cd984181a2cafb"/>
+			</dataarea>
+		</part>
+	</software>
+
+
 	<!-- ##############################################################################################################################
 	     unsorted (main collection)
 	     ############################################################################################################################## -->
@@ -39094,9 +41040,9 @@ license:CC0
 
 
 	<software name="accelera">
-		<description>Accelerator (Mind Games Espana)</description>
+		<description>Accelerator (Mind Games España)</description>
 		<year>1985</year>
-		<publisher>Mind Games Espana</publisher>
+		<publisher>Mind Games España</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="35518">
 				<rom name="accelerator (mind games espana).tzx" size="35518" crc="eaf3109a" sha1="c0ea1edc7632d1d5ea5196668ede490a59fd72fb"/>
@@ -45191,7 +47137,7 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="basketma">
+	<software name="basketma" cloneof="fmbm">
 		<description>Basket Master</description>
 		<year>1988</year>
 		<publisher>Imagine Software</publisher>
@@ -48325,12 +50271,23 @@ license:CC0
 	</software>
 
 	<software name="breakawa">
-		<description>Break Away</description>
+		<description>Breakaway</description>
 		<year>1983</year>
 		<publisher>Procom</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="8180">
 				<rom name="break away.tzx" size="8180" crc="c513bda7" sha1="b466af1d463cafe188bb38187f3c218b0bac5b81"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="breakawasp" cloneof="breakawa">
+		<description>Breakaway (Spain)</description>
+		<year>1983</year>
+		<publisher>Intelligent Program</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="8285">
+				<rom name="Breakaway (Intelligent Program).tzx" size="8285" crc="fc07c00b" sha1="cb8d3080ee53b49f3925ea52a81874080c28d692"/>
 			</dataarea>
 		</part>
 	</software>
@@ -50002,6 +51959,22 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="44304">
 				<rom name="the brain train.tzx" size="44304" crc="b690e6d8" sha1="b590f7ba2d745553e49067656a1d1a0cc1069981"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="thebrick">
+		<description>The Brick</description>
+		<year>1989</year>
+		<publisher>Delta Software S.L.</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="43065">
+				<rom name="The Brick - Side A.tzx" size="43065" crc="41bcd05f" sha1="8373d541bb659a66f79c1cdc803f5decea568305"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="42954">
+				<rom name="The Brick - Side B.tzx" size="42954" crc="af96e600" sha1="1bc91b4915eed8a30d5bcfc61b4f3e12a86cb59c"/>
 			</dataarea>
 		</part>
 	</software>
@@ -53989,6 +55962,24 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="dinamic90">
+		<description>Colección Dinamic-90</description>
+		<year>1989</year>
+		<publisher>Dinamic Software</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<feature name="part_id" value="Side A: Navy Moves, Aspar - GP Master, Comando Tracer"/>
+			<dataarea name="cass" size="171005">
+				<rom name="coleccion dinamic-90 - side 1.tzx" size="171005" crc="baf08d41" sha1="9b53704eaab1d825b26b38c8499e222935c20c15"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<feature name="part_id" value="Side B: Rescate Atlántida, Bestial Warrior"/>
+			<dataarea name="cass" size="280275">
+				<rom name="coleccion dinamic-90 - side 2.tzx" size="280275" crc="981e919e" sha1="5c4702e01758eb26f65c565fe4954b2691d1510f"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="colinthe">
 		<description>Colin The Cleaner</description>
 		<year>1987</year>
@@ -54933,13 +56924,24 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="contabil_d" cloneof="contabil">
+	<software name="contagen">
 		<description>Contabilidad General</description>
-		<year>19??</year>
-		<publisher>&lt;unknown&gt;</publisher>
+		<year>1983</year>
+		<publisher>Investronica</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="39200">
 				<rom name="contabilidad general.tzx" size="39200" crc="1372c5eb" sha1="92788f0988c998aa5321e2cc95006f740e82ee55"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="contgemb">
+		<description>Contabilidad General (Micro Bit)</description>
+		<year>1985</year>
+		<publisher>Micro Bit</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="19445">
+				<rom name="Contabilidad General (Micro Bit).tzx" size="19445" crc="f4d45083" sha1="2341847ef5cae6f2a87d666e0757ac3f43a19eb6"/>
 			</dataarea>
 		</part>
 	</software>
@@ -59041,6 +61043,17 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="38282">
 				<rom name="dangerous garden.tzx" size="38282" crc="adba295d" sha1="f44e9044f932a9edfc0e0a70f342950a5b507762"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="dangmaze">
+		<description>Dangerous Maze - Rescate en el Laberinto</description>
+		<year>1987</year>
+		<publisher>Idealogic</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="47397">
+				<rom name="Dangerous Maze - Rescate En El Laberinto.tzx" size="47397" crc="0739bc7d" sha1="b9ee8bfe4410544a68a9c76210ac3b57e5be92b2"/>
 			</dataarea>
 		</part>
 	</software>
@@ -63590,6 +65603,17 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="49394">
 				<rom name="driller (erbe - musical 1).tzx" size="49394" crc="4c04de89" sha1="9306af1491a4620ccd84de92e4e6188e0c8357c3"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="drillers4" cloneof="driller">
+		<description>Driller (System 4)</description>
+		<year>1991</year>
+		<publisher>System 4</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="50373">
+				<rom name="Driller (System 4).tzx" size="50373" crc="ed36eb65" sha1="429c1cb12c222aa5e881946cbdd4a66786cdc730"/>
 			</dataarea>
 		</part>
 	</software>
@@ -68265,6 +70289,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="extermimb">
+		<description>Exterminator (Microbyte)</description>
+		<year>1986</year>
+		<publisher>Microbyte</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="34498">
+				<rom name="Exterminator (Microbyte).tzx" size="34498" crc="afc311e8" sha1="eee1efb61c294bad3512bfd88563a4b328eeaedf"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="theexter">
 		<description>The Exterminator</description>
 		<year>1991</year>
@@ -69056,13 +71091,28 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="fernando">
+	<software name="fmbm">
 		<description>Fernando Martin Basket Master</description>
 		<year>1987</year>
 		<publisher>Dinamic Software</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="47514">
 				<rom name="fernando martin basket master.tzx" size="47514" crc="f97e5238" sha1="c417a90325d14bb689c21b1ba62b6b39cb44b03e"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="fmbmdemo" cloneof="fmbm">
+		<!--
+		    This demo was pitched to Dinamic by Gonzalo Martin Erro and Julio A. Martin Erro before it was fully developed as a commercial game. The recovered version was a bootleg distribution, no Microdrive cartridges with official builds are known to have survived.
+		-->
+		<description>Fernando Martin Basket Master (concept demo, bootleg)</description>
+		<year>1987</year>
+		<publisher>Dinamic Software</publisher>
+		<info name="author" value="Gonzalo Martin Erro and Julio A. Martin Erro"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="48126">
+				<rom name="fernando martin basket master (concept demo, bootleg).tzx" size="48126" crc="67fde8f1" sha1="797cc20061236cc923a69a3c52ae5e65784713d9"/>
 			</dataarea>
 		</part>
 	</software>
@@ -78581,6 +80631,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="henryhrds4" cloneof="henryhrd">
+		<description>Henry's Hoard (System 4)</description>
+		<year>1986</year>
+		<publisher>System 4</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="46912">
+				<rom name="Henry's Hoard (System 4).tzx" size="46912" crc="bab40d75" sha1="a609af10517fd2945f51cb51e324cec023ceda7d"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="herbert">
 		<description>Herbert's Dummy Run (set 1)</description>
 		<year>1985</year>
@@ -78646,7 +80707,7 @@ license:CC0
 		</part>
 	</software>
 
-		<software name="hercules">
+	<software name="hercules">
 		<description>Hercules (set 1, Alpha-Omega Software)</description>
 		<year>1986</year>
 		<publisher>Alpha-Omega Software</publisher>
@@ -80644,6 +82705,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="hyparaidzc" cloneof="hyparaid">
+		<description>Hypa Raid (Z Cobra)</description>
+		<year>1986</year>
+		<publisher>Atlantis</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="48409">
+				<rom name="Hypa Raid (Z Cobra).tzx" size="48409" crc="ff855126" sha1="fd10fa52b7dd889641cab2dca5220b262f53998a"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="hypaball">
 		<description>Hypaball</description>
 		<year>1986</year>
@@ -81169,9 +83241,9 @@ license:CC0
 	</software>
 
 	<software name="houshillb" cloneof="houshill">
-		<description>The House on Damned Hill (Mind Games Espana)</description>
+		<description>The House on Damned Hill (Mind Games España)</description>
 		<year>1985</year>
-		<publisher>Mind Games Espana</publisher>
+		<publisher>Mind Games España</publisher>
 		<part name="cass1" interface="spectrum_cass">
 			<dataarea name="cass" size="54951">
 				<rom name="the house on damned hill - side 1 (mind games espana).tzx" size="54951" crc="d6aeeb0f" sha1="dea498dbe0e7357e7a6dd6cc5c5d8f8caaf5f0b9"/>
@@ -89628,12 +91700,29 @@ license:CC0
 	</software>
 
 	<software name="legend">
+		<!--
+		    Includes game introduction after first loading block, but can't be loaded from the menu. Is the block order correct?
+		-->
 		<description>Legend</description>
 		<year>1990</year>
 		<publisher>Delta Software S.L.</publisher>
 		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="235442">
+				<rom name="legend.tzx" size="235442" crc="62ea4f8a" sha1="777e525c5ba14654077d4a25eac6767832bbe0b2"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="legenda" cloneof="legend">
+		<!--
+		    Lacks game introduction, bad dump or alternate version?
+		-->
+		<description>Legend (alt)</description>
+		<year>1990</year>
+		<publisher>Delta Software S.L.</publisher>
+		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="198227">
-				<rom name="legend.tzx" size="198227" crc="56d643b1" sha1="98c2be30d2b9327adf9cfbc75346e2649a74c700"/>
+				<rom name="legend alt.tzx" size="198227" crc="56d643b1" sha1="98c2be30d2b9327adf9cfbc75346e2649a74c700"/>
 			</dataarea>
 		</part>
 	</software>
@@ -91468,27 +93557,6 @@ license:CC0
 		</part>
 	</software>
 
-	<!--
-	This program was included as an audio track on the record "David el Gnomo" (the OST from the
-	       Spanish TV animation series with the same name, published by "Ariola Eurodisc S.A.").
-	       It was present on both the vinyl and the casstette versions, as a track titled
-	       "Juego de Los Gnomos para ordenador Spectrum".
-	       It was programmed by Manuel Orcera within the Spanish company "Juliet Software" for the,
-	       also Spanish, company "Compulogical S.A.".
-	       The game was re-released on 1986 on the audio record "Baby Album" (also published by
-	       "Ariola Eurodisc S.A."), but this time only on the vinyl version, not on the cassette.
-	-->
-	<software name="losgnomos">
-		<description>Los Gnomos - David el Gnomo</description>
-		<year>1985</year>
-		<publisher>Ariola Eurodisc S.A.</publisher>
-		<part name="cass" interface="spectrum_cass">
-			<dataarea name="cass" size="47189">
-				<rom name="david el gnomo.tzx" size="47189" crc="c9bee68e" sha1="7ebc4a65fc2a6d3b2a3a593bb32218dab13599a0"/>
-			</dataarea>
-		</part>
-	</software>
-
 	<software name="lospajar">
 		<description>Los Pajaros De Bangkok</description>
 		<year>1988</year>
@@ -93114,7 +95182,7 @@ license:CC0
 
 
 	<software name="madmix">
-		<description>Mad Mix</description>
+		<description>Mad Mix Game - The Pepsi Challenge</description>
 		<year>1988</year>
 		<publisher>U.S. Gold</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -93124,9 +95192,19 @@ license:CC0
 		</part>
 	</software>
 
-	<!-- some versions had Mad Mix Game on the box -->
-	<software name="madmixa" cloneof="madmix">
-		<description>Mad Mix Game (set 1, Spanish, SLS 208)</description>
+	<software name="madmixsp" cloneof="madmix">
+		<description>Mad Mix Game</description>
+		<year>1988</year>
+		<publisher>Topo Soft</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="48485">
+			<rom name="mad mix game.tzx" size="48485" crc="5a0ead19" sha1="e1e92591573addfd2dac5f8cdcc3e7adbfe308a9" offset="0"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="madmixspi" cloneof="madmix">
+		<description>Mad Mix Game (IBSA)</description>
 		<year>1988</year>
 		<publisher>IBSA</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -93136,29 +95214,34 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="madmixb" cloneof="madmix"> <!-- only the Spectrum part is listed here -->
-		<description>Mad Mix Game (set 2, Spanish, Spectrum + Amstrad dual format)</description>
-		<year>19??</year>
+	<software name="madmixspd" cloneof="madmix">
+		<description>Mad Mix Game (Spectrum + Amstrad dual format)</description>
+		<year>198?</year>
 		<publisher>&lt;unknown&gt;</publisher>
-		<part name="cass" interface="spectrum_cass">
+		<part name="cass1" interface="spectrum_cass">
+			<feature name="part_id" value="Side A: ZX Spectrum"/>
 			<dataarea name="cass" size="51587">
 				<rom name="mad mix game (spectrum + amstrad).tzx" size="51587" crc="205c6d46" sha1="d46594ee3a02c2ec9d46070279a7b99cf37b04c1"/>
 			</dataarea>
 		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<feature name="part_id" value="Side B: Amstrad CPC"/>
+			<dataarea name="cass" size="70159">
+				<rom name="Mad Mix Game (Spectrum + Amstrad) - Side 2 (Amstrad).cdt" size="70159" crc="ba250a79" sha1="b27c8768c16eaa3f8109e4cda6d15e35c3cc422c"/>
+			</dataarea>
+		</part>
 	</software>
 
-	<software name="madmixc" cloneof="madmix">
-		<description>Mad Mix Game (set 3, English, US Gold)</description>
-		<year>19??</year>
-		<publisher>&lt;unknown&gt;</publisher>
+	<software name="madmixa" cloneof="madmix">
+		<description>Mad Mix Game - The Pepsi Challenge (alt)</description>
+		<year>1988</year>
+		<publisher>US Gold</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="57516">
 				<rom name="mad mix game (us gold).tzx" size="57516" crc="a0674bf9" sha1="6709fb717ed2a18ea115448a81af9294c29ba238"/>
 			</dataarea>
 		</part>
 	</software>
-
-
 
 	<software name="madnurse">
 		<description>Mad Nurse</description>
@@ -93763,9 +95846,9 @@ license:CC0
 	</software>
 
 	<software name="mantrapa" cloneof="mantrap">
-		<description>Man Trap (set 2, Mind Games Espana)</description>
+		<description>Man Trap (set 2, Mind Games España)</description>
 		<year>1985</year>
-		<publisher>Mind Games Espana</publisher>
+		<publisher>Mind Games España</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="13772">
 				<rom name="man trap (mind games espana).tzx" size="13772" crc="0a33d1c4" sha1="d467d0dc8da4e3f2e400ec7871984fabc25b7607"/>
@@ -96069,6 +98152,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="memoedit">
+		<description>Memoedit</description>
+		<year>1993</year>
+		<publisher>César Hernández Bañó</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="29141">
+				<rom name="Memoedit.tzx" size="29141" crc="c33af473" sha1="2341595c2f6e83ebbbf04725789873c649807bbb"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="menace">
 		<description>Menace (set 1)</description>
 		<year>1983</year>
@@ -98343,6 +100437,20 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="montedor">
+		<!--
+		    Unreleased game.
+		-->
+		<description>Monte Dorado</description>
+		<year>1992</year>
+		<publisher>Psykosis Soft</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="43498">
+				<rom name="Monte Dorado.tzx" size="43498" crc="0b174ada" sha1="5277835bed61c1de7cdb7c6cc4e37b7df10573e3"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="montyont">
 		<description>Monty On The Run (Kixx)</description>
 		<year>1985</year>
@@ -99713,6 +101821,17 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="8421">
 				<rom name="mup.tzx" size="8421" crc="e3eb28df" sha1="3aac8121628d8ee4b9fc14a8c4970e81f6b58ba6"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="murcie4d">
+		<description>Murciélago en la Cuarta Dimensión (demo)</description>
+		<year>1987</year>
+		<publisher>Paco Lafuente</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="7377">
+				<rom name="demo murcielago.tzx" size="7377" crc="50d4dabc" sha1="cf54f0aa52d437b8bca491786c36a297a7a340a9"/>
 			</dataarea>
 		</part>
 	</software>
@@ -101946,7 +104065,7 @@ license:CC0
 	</software>
 
 	<software name="nfaldob" cloneof="nfaldo">
-		<description>Nick Faldo Plays The Open (set 3, Mind Games Espana)</description>
+		<description>Nick Faldo Plays The Open (set 3, Mind Games España)</description>
 		<year>1985</year>
 		<publisher>Mind Games / Mind Games Espana</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -103458,6 +105577,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="oceanracs4" cloneof="oceanrac">
+		<description>Ocean Racer (System 4)</description>
+		<year>1987</year>
+		<publisher>System 4</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="51362">
+				<rom name="Ocean Racer (System 4).tzx" size="51362" crc="ed559c46" sha1="97e486e84e58d67ad5aae8836d98bc9d06a82abd"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="oceanrac_a" cloneof="oceanrac">
 		<description>Ocean Racer</description>
 		<year>19??</year>
@@ -103774,9 +105904,9 @@ license:CC0
 	</software>
 
 	<software name="olympicc">
-		<description>Olympic Challenge (Mind Games Espana)</description>
+		<description>Olympic Challenge (Mind Games España)</description>
 		<year>1985</year>
-		<publisher>Mind Games Espana</publisher>
+		<publisher>Mind Games España</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="47977">
 				<rom name="olympic challenge (mind games espana).tzx" size="47977" crc="addfcefb" sha1="c5d339eb2e59428415cf6dab073ea3fa1cc88e7e"/>
@@ -107780,6 +109910,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="pioneerzc" cloneof="pioneer">
+		<description>Pioneer (Z Cobra)</description>
+		<year>1984</year>
+		<publisher>Z Cobra</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="53125">
+				<rom name="Pioneer (Z Cobra).tzx" size="53125" crc="fb9e7147" sha1="fa60802a7f3fef87a640f041b49cedbe6fb0941c"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="pipmania">
 		<description>Pipe Mania</description>
 		<year>1990</year>
@@ -109324,6 +111465,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="prefimun">
+		<description>Prefijos Mundiales</description>
+		<year>1985</year>
+		<publisher>Unión de Radioaficionados Españoles</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="41175">
+				<rom name="Prefijos Mundiales.tzx" size="41175" crc="952cba62" sha1="feb45cf9d853e8a32981f408f902a1a9c30ab21d"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="preludet">
 		<description>Prelude To D-Day (set 2)</description>
 		<year>1985</year>
@@ -109635,13 +111787,24 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="progolfi">
+	<software name="progolf2">
 		<description>Pro Golf II</description>
 		<year>1986</year>
 		<publisher>Atlantis</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="98243">
 				<rom name="pro golf ii.tzx" size="98243" crc="4f234f4a" sha1="2045972c251609fbcc90948bf7aaf7cfcb5609a7"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="progolf2s4" cloneof="progolf2">
+		<description>Pro Golf II (System 4)</description>
+		<year>1986</year>
+		<publisher>System 4</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="98409">
+				<rom name="Pro Golf II (System 4).tzx" size="98409" crc="f83bfb66" sha1="bcad5660d9ada61a381b87e0046fb2aad2e4ec26"/>
 			</dataarea>
 		</part>
 	</software>
@@ -110265,6 +112428,7 @@ license:CC0
 		</part>
 	</software>
 
+	<!-- NC128 -->
 	<software name="proteus">
 		<description>Proteus (Ultrasoft)</description>
 		<year>1984</year>
@@ -110272,6 +112436,18 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="55472">
 				<rom name="proteus (ultrasoft).tzx" size="55472" crc="abf262b7" sha1="3b5b4f24713e4411904f4440d0dcfac418588e0f"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<!-- NC128 -->
+	<software name="proteus86">
+		<description>Proteus</description>
+		<year>1986</year>
+		<publisher>Jorge Perez Barreiro</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="32173">
+				<rom name="proteus.tap" size="32173" crc="9604c599" sha1="cc3bee56c8d6174c940c077bfa68a46ccc77b404"/>
 			</dataarea>
 		</part>
 	</software>
@@ -115401,6 +117577,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="robotrumzc" cloneof="robotrum">
+		<description>Robot Rumpus (Z Cobra)</description>
+		<year>1985</year>
+		<publisher>Z Cobra</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="31178">
+				<rom name="Robot Rumpus (Z Cobra).tzx" size="31178" crc="4637409f" sha1="2b140bcd21b1ac353bcb809e761f181962349bdb"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="robotrun">
 		<description>Robot Runner</description>
 		<year>1984</year>
@@ -117632,6 +119819,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="sarlmoorzc" cloneof="sarlmoor">
+		<description>Sarlmoor (Z Cobra)</description>
+		<year>1986</year>
+		<publisher>Z Cobra</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="40761">
+				<rom name="Sarlmoor (Z Cobra).tzx" size="40761" crc="098735df" sha1="827698ed5dcd1f5ebe5c0e62e05bc60ae0614723"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="sasaslt">
 		<description>SAS Assault (1984, Micromania)</description>
 		<year>1984</year>
@@ -118991,7 +121189,7 @@ license:CC0
 	</software>
 
 	<software name="sentnelsb" cloneof="sentnels">
-		<description>Sentinels (set 3, Mind Games Espana)</description>
+		<description>Sentinels (set 3, Mind Games España)</description>
 		<year>19??</year>
 		<publisher>&lt;unknown&gt;</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -126861,13 +129059,24 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="stardust_b" cloneof="stardust">
-		<description>Stardust</description>
-		<year>19??</year>
-		<publisher>&lt;unknown&gt;</publisher>
+	<software name="stardustsp" cloneof="stardust">
+		<description>Stardust (Spain, Topo Soft)</description>
+		<year>1987</year>
+		<publisher>Topo Soft</publisher>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="80331">
 				<rom name="stardust.tzx" size="80331" crc="10683fc8" sha1="843f272dc11f072bc24e1f255fba49a22d3e2975"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="stardustsl" cloneof="stardust">
+		<description>Stardust (Spain, IBSA, Serie Leyenda)</description>
+		<year>1987</year>
+		<publisher>IBSA</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="80405">
+				<rom name="Stardust (IBSA - Serie Leyenda).tzx" size="80405" crc="cfc926ec" sha1="fc7598d0fd8a1ef705e5debbdd58dbc5b3f6200b"/>
 			</dataarea>
 		</part>
 	</software>
@@ -128277,6 +130486,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="subbuteos4" cloneof="subbuteo">
+		<description>Subbuteo (System 4)</description>
+		<year>1990</year>
+		<publisher>System 4</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="77218">
+				<rom name="Subbuteo (System 4).tzx" size="77218" crc="9de01107" sha1="741814c528192352d70d1307b4f7ae296a1a1e84"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="submarin">
 		<description>Submarine Strike</description>
 		<year>1984</year>
@@ -129339,6 +131559,17 @@ license:CC0
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="17147">
 				<rom name="superball.tzx" size="17147" crc="cb146e55" sha1="e56e5adcb2e03ab677258271388d34c16042039e"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="supercal">
+		<description>Supercalco</description>
+		<year>1984</year>
+		<publisher>Luis Mezquita Raya</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="2281">
+				<rom name="Supercalco.tzx" size="2281" crc="dc948000" sha1="21fc9435a4ce625eea0db23334f108fb9bb163bb"/>
 			</dataarea>
 		</part>
 	</software>
@@ -134255,6 +136486,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="tikitaca">
+		<description>Tiki Taca</description>
+		<year>2019</year>
+		<publisher>Climacus / Errazking</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="42186">
+				<rom name="TIKI TACA.tzx" size="42186" crc="7e95bf64" sha1="848c86651510c1b1a2e4717c0078653970c50b4d"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="tiler">
 		<description>Tiler (set 1)</description>
 		<year>1984</year>
@@ -138375,6 +140617,17 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="uwolquesi2" cloneof="uwolques">
+		<description>Uwol, Quest For Money (Interface 2 Version)</description>
+		<year>2009</year>
+		<publisher>Ubhres Productions</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="53339">
+				<rom name="Uwol Quest For Money (Interface 2 Version).z80" size="53339" crc="1ea22d3a" sha1="d5ea9fa1c44e77e07fb2f545f5d05440b0be53c5"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="thevalle">
 		<description>The Valley (Kayde)</description>
 		<year>1983</year>
@@ -138850,9 +141103,52 @@ license:CC0
 	</software>
 
 	<software name="vegasol">
-		<description>Vega Solaris (set 1)</description>
+		<description>Vega Solaris (English)</description>
+		<!--
+		    Unreleased game.
+		-->
 		<year>1989</year>
-		<publisher>Eclipse, Quasar</publisher>
+		<publisher>Eclipse</publisher>
+		<info name="author" value="Fernando Sáenz Pérez and Carlos García Cordero"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="56228">
+				<rom name="vegasolaris89_en.tzx" size="56228" crc="175f2151" sha1="e9a5d0dd1b81b7647ca2a445025d558021a0c7b8"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="vegasolsp" cloneof="vegasol">
+		<!--
+		    Unreleased game.
+		-->
+		<description>Vega Solaris (Spanish)</description>
+		<year>1989</year>
+		<publisher>Eclipse</publisher>
+		<info name="author" value="Fernando Sáenz Pérez and Carlos García Cordero"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="56228">
+				<rom name="vegasolaris89_sp.tzx" size="56228" crc="9d4750dc" sha1="2e55c8a4301b1faacfff9aba735ec4f3db24aed7"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="vegasolp" cloneof="vegasol">
+		<description>Vega Solaris (1987 prototype)</description>
+		<year>1987</year>
+		<publisher>Quasar</publisher>
+		<info name="author" value="Fernando Sáenz Pérez and Carlos García Cordero"/>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="49109">
+				<rom name="vega solaris (beta version).tzx" size="49109" crc="ed963397" sha1="3e5d884173e2dc602442231e1d628a62c2a493c9"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="vegasolp2" cloneof="vegasol">
+		<description>Vega Solaris (1989 prototype)</description>
+		<year>1989</year>
+		<publisher>Eclipse</publisher>
+		<info name="author" value="Fernando Sáenz Pérez and Carlos García Cordero"/>
 		<part name="cass" interface="spectrum_cass">
 			<dataarea name="cass" size="55236">
 				<rom name="vega solaris.tzx" size="55236" crc="8ad42bd6" sha1="a7c116dd86f1679b4ea68b981a885874670d4995"/>
@@ -138860,39 +141156,20 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="vegasola" cloneof="vegasol">
-		<description>Vega Solaris (set 2)</description>
-		<year>19??</year>
-		<publisher>&lt;unknown&gt;</publisher>
+	<software name="vegasolrg" cloneof="vegasol">
+		<!--
+		    Identical to the (previously recovered) unreleased final Spanish version, freebie for Spanish Retro Gamer subscribers.
+		-->
+		<description>Vega Solaris (Retro Gamer)</description>
+		<year>2013</year>
+		<publisher>Axel Springer / Matra</publisher>
+		<info name="author" value="Fernando Sáenz Pérez and Carlos García Cordero"/>
 		<part name="cass" interface="spectrum_cass">
-			<dataarea name="cass" size="56228">
-				<rom name="vega solaris (alt).tzx" size="56228" crc="9d4750dc" sha1="2e55c8a4301b1faacfff9aba735ec4f3db24aed7"/>
+			<dataarea name="cass" size="55996">
+				<rom name="vega solaris (retro gamer).tzx" size="55996" crc="c9e7b029" sha1="e0995dceaeeffccbc9d863db12a57749fe901226"/>
 			</dataarea>
 		</part>
 	</software>
-
-	<software name="vegasolb" cloneof="vegasol">
-		<description>Vega Solaris (set 3)</description>
-		<year>19??</year>
-		<publisher>&lt;unknown&gt;</publisher>
-		<part name="cass" interface="spectrum_cass">
-			<dataarea name="cass" size="56026">
-				<rom name="vega solaris - alternate.tzx" size="56026" crc="d666f285" sha1="1daaa6b1cdccac390f294ca64ff696a5465caa22"/>
-			</dataarea>
-		</part>
-	</software>
-
-	<software name="vegasolc" cloneof="vegasol">
-		<description>Vega Solaris (set 4, beta version)</description>
-		<year>19??</year>
-		<publisher>&lt;unknown&gt;</publisher>
-		<part name="cass" interface="spectrum_cass">
-			<dataarea name="cass" size="49109">
-				<rom name="vega solaris - beta version.tzx" size="49109" crc="ed963397" sha1="3e5d884173e2dc602442231e1d628a62c2a493c9"/>
-			</dataarea>
-		</part>
-	</software>
-
 
 	<software name="vegatabl">
 		<description>Vega-Table</description>
@@ -139135,7 +141412,18 @@ license:CC0
 	</software>
 
 	<software name="viajealc">
-		<description>Viaje Al Centro De La Tierra (Serie 5 Estrellas)</description>
+		<description>Viaje al Centro de la Tierra</description>
+		<year>1989</year>
+		<publisher>Topo Soft</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="125750">
+				<rom name="viaje al centro de la tierra (1989)(topo soft)(es)[a4].tzx" size="125750" crc="2048dc1b" sha1="d418770a9768530e8328cc49abaa7edbdaaa7116"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="viajealc5e" cloneof="viajealc">
+		<description>Viaje al Centro de la Tierra (Serie 5 Estrellas)</description>
 		<year>1989</year>
 		<publisher>Topo Soft</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -139145,6 +141433,38 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="viajealcext" cloneof="viajealc">
+		<description>Viaje al Centro de la Tierra - Versión Extendida</description>
+		<year>2008</year>
+		<publisher>Topo Siglo XXI</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="196599">
+				<rom name="viaje al centro de la tierra - version extendida (2007)(topo siglo xxi)(48k-128k)(es)[pack 5 fases].tzx" size="196599" crc="fb46783f" sha1="696b414d390423152839908022ba888cdab1ed2e" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="viajealcext45" cloneof="viajealc">
+		<description>Viaje al Centro de la Tierra - Versión Extendida (levels 4 and 5)</description>
+		<year>2008</year>
+		<publisher>Topo Siglo XXI</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="89849">
+				<rom name="viaje al centro de la tierra - version extendida (2007)(topo siglo xxi)(48k-128k)(es).tzx" size="89849" crc="d1fa8d71" sha1="9b55da70989ed474e7255a84b925b6e547d60389" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="viajealcext10" cloneof="viajealc">
+		<description>Viaje al Centro de la Tierra - Versión Extendida (10 Aniversario)</description>
+		<year>2018</year>
+		<publisher>Topo Siglo XXI</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="196613">
+				<rom name="Viaje Al Centro De La Tierra - Version Extendida (10 Aniversario).tzx" size="196613" crc="f5681a3a" sha1="d234a5d13d8ec49b6e645ad957e5041363bb01f1"/>
+			</dataarea>
+		</part>
+	</software>
 	<software name="vicevers">
 		<description>Vice Versa</description>
 		<year>1987</year>
@@ -143727,8 +146047,19 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="xadomfkw">
-		<description>Xadom (F+K-Ware)</description>
+	<software name="xadom">
+		<description>Xadom</description>
+		<year>1983</year>
+		<publisher>Quicksilva</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="45779">
+				<rom name="xadom.tzx" size="45779" crc="0340171a" sha1="980c2626be0894b5c8ca16365ec695d4c2dcf53e"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="xadomfkw" cloneof="xadom">
+		<description>Xadom (F+K Ware)</description>
 		<year>1983</year>
 		<publisher>F+K Ware</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -143738,13 +146069,41 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="xadom">
-		<description>XADOM</description>
+	<software name="xadominv" cloneof="xadom">
+		<description>Xadom (Investronica)</description>
 		<year>1983</year>
-		<publisher>Quicksilva</publisher>
+		<publisher>Investronica</publisher>
 		<part name="cass" interface="spectrum_cass">
-			<dataarea name="cass" size="45779">
-				<rom name="xadom.tzx" size="45779" crc="0340171a" sha1="980c2626be0894b5c8ca16365ec695d4c2dcf53e"/>
+			<dataarea name="cass" size="45090">
+				<rom name="xadom (investronica).tzx" size="45090" crc="357e8f85" sha1="8ad7a69f135a511453fc6bdd6347e8fb5a25b690"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="xadommb" cloneof="xadom">
+		<!--
+		    Same data as Investronica release but with different pause lengths.
+		-->
+		<description>Xadom (Microbyte)</description>
+		<year>1987</year>
+		<publisher>Microbyte</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="45077">
+				<rom name="xadom (microbyte).tzx" size="45077" crc="0b16f21e" sha1="0d2e1ae729fd3bbf7cc045bdd3453e32102c01a1"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="xadomps" cloneof="xadom">
+		<!--
+		    Same data as Quiksilva release but with different pause lengths.
+		-->
+		<description>Xadom (Power Software)</description>
+		<year>1983</year>
+		<publisher>Power Software</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="45809">
+				<rom name="xadom (power software).tzx" size="45809" crc="c6f4600b" sha1="27ecfc5a1f130e4afd1478e9c2d89a63f34b21f2"/>
 			</dataarea>
 		</part>
 	</software>
@@ -143915,7 +146274,7 @@ license:CC0
 	</software>
 
 	<software name="xenoc" cloneof="xeno">
-		<description>Xeno (Mind Games Espana)</description>
+		<description>Xeno (Mind Games España)</description>
 		<year>1986</year>
 		<publisher>A'n'F Software / Mind Games Espana</publisher>
 		<part name="cass" interface="spectrum_cass">
@@ -149745,7 +152104,7 @@ license:CC0
 				<rom name="caramelos y batalla naval - side 2.tzx" size="23652" crc="3c28529e" sha1="48a2972cbd3a4cd47ea3dbeb045ce23364df0f73"/>
 			</dataarea>
 		</part>
-		</software>
+	</software>
 
 	<software name="carmbna" cloneof="carmbn">
 		<description>Caramelos &amp; Batalla Naval (set 2)</description>
@@ -154429,6 +156788,36 @@ license:CC0
 		<part name="cass4" interface="spectrum_cass">
 			<dataarea name="cass" size="223854">
 				<rom name="les tresors de u.s. gold - tape 2 - side 2.tzx" size="223854" crc="5a00a712" sha1="e917b87232c505931fd25fea2d1917570c8199ca"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="libsofts11">
+		<description>Libreria de Software Spectrum (Issue 11)</description>
+		<year>1986</year>
+		<publisher>Grupo de Trabajo Software</publisher>
+		<part name="cass1" interface="spectrum_cass">
+			<dataarea name="cass" size="29593">
+				<rom name="Libreria De Software Spectrum (Issue 11) - Side 1.tzx" size="29593" crc="8fc44d88" sha1="b3c080d85574003cd72b916a7a993c2629812432"/>
+			</dataarea>
+		</part>
+		<part name="cass2" interface="spectrum_cass">
+			<dataarea name="cass" size="28336">
+				<rom name="Libreria De Software Spectrum (Issue 11) - Side 2.tzx" size="28336" crc="5359be12" sha1="2008c3383f5bafaeea2c386a873274e13bc5146b"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="libsofts20">
+		<!--
+		    Erroneously labeled as #19 in its release.
+		-->
+		<description>Libreria de Software Spectrum (Issue 20) (Night)</description>
+		<year>1987</year>
+		<publisher>Grupo de Trabajo Software</publisher>
+		<part name="cass" interface="spectrum_cass">
+			<dataarea name="cass" size="13515">
+				<rom name="Libreria De Software Spectrum (Issue 20) - Night.tzx" size="13515" crc="a41e3ec6" sha1="7f17dd064bf11c1f16c2fc9e02382fe0db07fec6"/>
 			</dataarea>
 		</part>
 	</software>
