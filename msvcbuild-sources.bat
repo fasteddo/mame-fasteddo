@@ -6,7 +6,7 @@
 
 @rem make SUBTARGET=tiny vs2015 
 @rem make vs2015 SUBTARGET=drivername SOURCES=src\mame\drivers\drivername.cpp
-make vs2019 REGENIE=1 SOURCES=^
+make vs2019 REGENIE=1 MODERN_WIN_API=1 NO_USE_PORTAUDIO=1 SOURCES=^
 src/mame/audio/llander.cpp,^
 src/mame/drivers/1942.cpp,^
 src/mame/drivers/8080bw.cpp,^
