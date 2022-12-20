@@ -6,38 +6,38 @@
 
 @rem make SUBTARGET=tiny vs2015 
 @rem make vs2015 SUBTARGET=drivername SOURCES=src\mame\drivers\drivername.cpp
-make vs2019 REGENIE=1 MODERN_WIN_API=1 NO_USE_PORTAUDIO=1 SOURCES=^
-src/mame/audio/llander.cpp,^
-src/mame/drivers/1942.cpp,^
-src/mame/drivers/8080bw.cpp,^
-src/mame/drivers/asteroid.cpp,^
-src/mame/drivers/atarisy2.cpp,^
-src/mame/drivers/berzerk.cpp,^
-src/mame/drivers/btime.cpp,^
-src/mame/drivers/bzone.cpp,^
-src/mame/drivers/centiped.cpp,^
-src/mame/drivers/cclimber.cpp,^
-src/mame/drivers/dkong.cpp,^
-src/mame/drivers/fastfred.cpp,^
-src/mame/drivers/galaga.cpp,^
-src/mame/drivers/galaxian.cpp,^
-src/mame/drivers/gottlieb.cpp,^
-src/mame/drivers/m52.cpp,^
-src/mame/drivers/mappy.cpp,^
-src/mame/drivers/mcr.cpp,^
-src/mame/drivers/missile.cpp,^
-src/mame/drivers/mw8080bw.cpp,^
-src/mame/drivers/pacman.cpp,^
-src/mame/drivers/pengo.cpp,^
-src/mame/drivers/polepos.cpp,^
-src/mame/drivers/pong.cpp,^
-src/mame/drivers/popeye.cpp,^
-src/mame/drivers/rallyx.cpp,^
-src/mame/drivers/snk6502.cpp,^
-src/mame/drivers/system1.cpp,^
-src/mame/drivers/taitosj.cpp,^
-src/mame/drivers/tempest.cpp,^
-src/mame/drivers/turbo.cpp,^
-src/mame/drivers/williams.cpp,^
-src/mame/drivers/zaxxon.cpp ^
-PYTHON_EXECUTABLE=d:/msys64-2022-01-12/mingw64/bin/python.exe
+make vs2019 REGENIE=1 MODERN_WIN_API=1 NO_USE_PORTAUDIO=1 ^
+PYTHON_EXECUTABLE=d:/msys64-2022-01-12/mingw64/bin/python.exe ^
+SOURCES=^
+src/mame/capcom/1942.cpp,^
+src/mame/midw8080/8080bw.cpp,^
+src/mame/atari/asteroid.cpp,^
+src/mame/atari/atarisy2.cpp,^
+src/mame/stern/berzerk.cpp,^
+src/mame/dataeast/btime.cpp,^
+src/mame/atari/bzone.cpp,^
+src/mame/atari/centiped.cpp,^
+src/mame/nichibutsu/cclimber.cpp,^
+src/mame/nintendo/dkong.cpp,^
+src/mame/galaxian/fastfred.cpp,^
+src/mame/namco/galaga.cpp,^
+src/mame/galaxian/galaxian.cpp,^
+src/mame/gottlieb/gottlieb.cpp,^
+src/mame/irem/m52.cpp,^
+src/mame/namco/mappy.cpp,^
+src/mame/midway/mcr.cpp,^
+src/mame/atari/missile.cpp,^
+src/mame/midw8080/mw8080bw.cpp,^
+src/mame/pacman/pacman.cpp,^
+src/mame/pacman/pengo.cpp,^
+src/mame/namco/polepos.cpp,^
+src/mame/atari/pong.cpp,^
+src/mame/nintendo/popeye.cpp,^
+src/mame/namco/rallyx.cpp,^
+src/mame/snk/snk6502.cpp,^
+src/mame/sega/system1.cpp,^
+src/mame/taito/taitosj.cpp,^
+src/mame/atari/tempest.cpp,^
+src/mame/sega/turbo.cpp,^
+src/mame/midway/williams.cpp,^
+src/mame/sega/zaxxon.cpp
